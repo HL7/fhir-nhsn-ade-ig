@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hypoglycemia"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2020-12-14T02:41:40.418+00:00"/>
-        <source value="#fNxS6Tys5EsJ7L0G"/>
+        <versionId value="19"/>
+        <lastUpdated value="2020-12-14T03:09:52.633+00:00"/>
+        <source value="#u4W8pjGJo4mS27Jp"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
@@ -29,7 +29,6 @@
     <type value="Composition"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Composition"/>
     <derivation value="constraint"/>
-    
     <differential>
         <element id="Composition">
             <path value="Composition"/>
@@ -78,16 +77,16 @@
             </slicing>
             <min value="1"/>
         </element>
-        <element id="Composition.section.code">
-            <path value="Composition.section.code"/>
-            <min value="1"/>
-            <mustSupport value="true"/>
-        </element>
         <element id="Composition.section:problemsSection">
             <path value="Composition.section"/>
             <sliceName value="problemsSection"/>
             <min value="1"/>
             <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:problemsSection.title">
+            <path value="Composition.section.title"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemsSection.code">
@@ -100,6 +99,11 @@
                     <code value="11450-4"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:problemsSection.text">
+            <path value="Composition.section.text"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemsSection.entry">
@@ -126,6 +130,11 @@
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
+        <element id="Composition.section:proceduresSection.title">
+            <path value="Composition.section.title"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Composition.section:proceduresSection.code">
             <path value="Composition.section.code"/>
             <short value="History of procedures"/>
@@ -136,6 +145,11 @@
                     <code value="47519-4"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:proceduresSection.text">
+            <path value="Composition.section.text"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:proceduresSection.entry">
@@ -165,6 +179,11 @@
             <max value="1"/>
             <mustSupport value="true"/>
         </element>
+        <element id="Composition.section:resultsSection.title">
+            <path value="Composition.section.title"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Composition.section:resultsSection.code">
             <path value="Composition.section.code"/>
             <short value="Relevant diagnostic tests &amp;or laboratory data"/>
@@ -175,6 +194,11 @@
                     <code value="30954-2"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:resultsSection.text">
+            <path value="Composition.section.text"/>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:resultsSection.entry">
@@ -198,9 +222,17 @@
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
             </type>
         </element>
-        <element id="Composition.section.title">
+        <element id="Composition.section:medicationsSection">
+            <path value="Composition.section"/>
+            <sliceName value="medicationsSection"/>
+            <min value="1"/>
+            <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:medicationsSection.title">
             <path value="Composition.section.title"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medicationsSection.code">
             <path value="Composition.section.code"/>
@@ -214,9 +246,10 @@
             </patternCodeableConcept>
             <mustSupport value="true"/>
         </element>
-        <element id="Composition.section.text">
+        <element id="Composition.section:medicationsSection.text">
             <path value="Composition.section.text"/>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medicationsSection.entry">
             <path value="Composition.section.entry"/>
@@ -231,9 +264,6 @@
         <element id="Composition.section:medicationsSection.entry:medicationAdministration">
             <path value="Composition.section.entry"/>
             <sliceName value="medicationAdministration"/>
-            <type>
-                <code value="Reference"/>
-            </type>
         </element>
         <element id="Composition.section:medicationsSection.entry:USCoreMedicationRequest">
             <path value="Composition.section.entry"/>
@@ -242,13 +272,6 @@
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest"/>
             </type>
-        </element>
-        <element id="Composition.section:medicationsSection">
-            <path value="Composition.section"/>
-            <sliceName value="medicationsSection"/>
-            <min value="1"/>
-            <max value="1"/>
-            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>
