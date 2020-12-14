@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ImplementationGuide
+    xmlns="http://hl7.org/fhir">
+    <id value="hl7-fhir-us-ade-hypo"/>
+    <meta>
+        <versionId value="5"/>
+        <lastUpdated value="2020-12-13T22:23:48.620+00:00"/>
+        <source value="#wA7xSuMK8bpIsjOX"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"/>
+    <version value="0.1.0"/>
+    <name value="AdverseDrugEventHypoglycemia"/>
+    <title value="NHSN Reporting: Adverse Drug Events - Hypoglycemia"/>
+    <status value="draft"/>
+    <publisher value="HL7 International - Public Health Work Group"/>
+    <contact>
+        <name value="HL7 International - Public Health"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://www.hl7.org/Special/committees/pher"/>
+        </telecom>
+    </contact>
+    <description value="Adverse drug events (ADEs) are among the most common causes of iatrogenic harm in U.S. hospitals. An effort to establish an EHR- and vendor-neutral standard for submitting ADE data to NHSN is being sought to improve patient safety and facilitate quality improvement effort. This promising initiative seeks to enable EHRs of acute care facilities to serve as source systems for reporting ADE data to the National Healthcare Safety Network (NHSN) via industry electronic messages. This initiative leverages NHSN’s longstanding experience working closely with the Health Level Seven (HL7) standards development organization and HL7 consultants in developing and maintaining electronic healthcare-associated and antibiotic use and resistance reporting implementation guidance for EHRs and infection surveillance system vendors in the acute care arena. That experience, and the working relationships developed over a 10-year partnership, are an important foundation for a collaborative effort in which NHSN, HL7, HL7 consultants, and EHR vendors join forces to advance the field of electronic ADE reporting.&#xA;&#xA;This first module, Hypoglycemia, planned for the NHSN Medication Safety Component, would enable hospitals to track and benchmark inpatient medication-related hypoglycemia (low blood sugar). Inpatient hypoglycemia can be severe and life-threatening and is associated with longer hospital stays and increased medical costs. Severe hypoglycemia (&lt;40 mg/dL) occurs in 2%-5% of hospitalized patients with diabetes mellitus (DM). Medication-related hypoglycemic events are common causes of adverse drug events (ADEs) occurring in inpatient settings, with rates of severe hypoglycemia varying across hospitals, suggesting opportunities for improvement in the quality of care. Measurement of medication-related hypoglycemia in a meaningful and standardized way may improve glycemic management. The NHSN ADE – Hypoglycemia Module provides a mechanism for facilities to report and analyze medication-related hypoglycemia as part of patient safety and glycemic management quality improvement efforts.&#xA;&#xA;The measures planned for used in this module are based on quality reporting metrics previously- or currently-endorsed by the National Quality Forum (NQF): NQF #2363 Glycemic Control - Hypoglycemia and NQF #3503 Hospital Harm – Severe Hypoglycemia. The metrics reported in this module would be primarily based on linked eMAR (antidiabetic medication administration) and laboratory (blood glucose) data. These long-standing linkages links between public health and vendors can be leveraged in ways that yield benefits for surveillance and prevention that are tightly coupled to business models and growth."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <packageId value="hl7.fhir.us.ade-hypo"/>
+    <fhirVersion value="4.0.1"/>
+    <dependsOn id="hl7fhiruscore">
+        <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#3.1.1"/>
+        <packageId value="hl7.fhir.us.core"/>
+        <version value="3.1.1"/>
+    </dependsOn>
+    <definition>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Composition-ade-hypoglycemia"/>
+                <display value="Composition - ADE Hypoglycemia"/>
+            </reference>
+            <name value="Composition - ADE Hypoglycemia"/>
+            <description value="This profile supports the electronic submission of adverse drug event (ADE) data to the National Healthcare Safety Network (NHSN)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <page>
+            <nameUrl value="index.html"/>
+            <title value="Home Page"/>
+            <generation value="markdown"/>
+        </page>
+        <parameter>
+            <code value="copyrightyear"/>
+            <value value="2020+"/>
+        </parameter>
+        <parameter>
+            <code value="releaselabel"/>
+            <value value="CI Build"/>
+        </parameter>
+    </definition>
+</ImplementationGuide>

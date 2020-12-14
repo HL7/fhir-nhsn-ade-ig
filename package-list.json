@@ -1,0 +1,17 @@
+{
+	"list": [
+		{
+			"version": "current",
+			"path": "https://build.fhir.org/ig/HL7/ade-hypo",
+			"desc": "",
+			"fhirversion": "4.0.1",
+			"date": "",
+			"sequence": "",
+			"status": "ci-build",
+			"current": true
+		}
+	],
+	"package-id": "hl7.fhir.us.ade-hypo",
+	"title": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
+	"canonical": "http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"
+}
