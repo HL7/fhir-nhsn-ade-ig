@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ade-hypo"/>
     <meta>
-        <versionId value="5"/>
-        <lastUpdated value="2020-12-13T22:23:48.620+00:00"/>
-        <source value="#wA7xSuMK8bpIsjOX"/>
+        <versionId value="7"/>
+        <lastUpdated value="2020-12-14T04:05:25.444+00:00"/>
+        <source value="#22pRlSJifYKXD8r4"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"/>
     <version value="0.1.0"/>
@@ -44,6 +44,15 @@
             </reference>
             <name value="Composition - ADE Hypoglycemia"/>
             <description value="This profile supports the electronic submission of adverse drug event (ADE) data to the National Healthcare Safety Network (NHSN)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/MedicationAdministration-Antidiabetics"/>
+                <display value="MedicationAdministrationAntidiabetics"/>
+            </reference>
+            <name value="MedicationAdministrationAntidiabetics"/>
+            <description value="This profile represents the administration of an antidiabetic drug."/>
             <exampleBoolean value="false"/>
         </resource>
         <page>

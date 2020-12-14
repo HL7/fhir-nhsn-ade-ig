@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hypoglycemia"/>
     <meta>
-        <versionId value="22"/>
-        <lastUpdated value="2020-12-14T03:33:08.691+00:00"/>
-        <source value="#qAHxpoqk4SHqkro2"/>
+        <versionId value="23"/>
+        <lastUpdated value="2020-12-14T04:31:16.450+00:00"/>
+        <source value="#dsI38eXx0VLFMKWe"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
@@ -3660,7 +3660,7 @@
             </base>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/StructureDefinition/Resource"/>
+                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
             </type>
             <condition value="cmp-2"/>
             <isModifier value="false"/>
@@ -4008,6 +4008,10 @@
         <element id="Composition.section:medicationSection.entry:medicationAdministration">
             <path value="Composition.section.entry"/>
             <sliceName value="medicationAdministration"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+            </type>
         </element>
         <element id="Composition.section:medicationSection.entry:USCoreMedicationRequest">
             <path value="Composition.section.entry"/>
