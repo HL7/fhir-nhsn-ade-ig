@@ -30,8 +30,8 @@
         <element id="MedicationAdministration">
             <path value="MedicationAdministration"/>
         </element>
-        <element id="MedicationAdministration.medication[x]">
-            <path value="MedicationAdministration.medication[x]"/>
+        <element id="MedicationAdministration.medicationCodeableConcept">
+            <path value="MedicationAdministration.medicationCodeableConcept"/>
             <type>
                 <code value="CodeableConcept"/>
             </type>
