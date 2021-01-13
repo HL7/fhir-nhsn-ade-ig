@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composition
+    xmlns="http://hl7.org/fhir">
+    <id value="composition-ade-hypoglycemia-example-2"/>
+    <meta>
+        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
+    </meta>
+    <status value="final"/>
+    <type>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="85893-6"/>
+            <display value="Adverse event note"/>
+        </coding>
+    </type>
+    <subject>
+        <reference value="Patient/patient-ade-1"/>
+        <display value="Name: 'masked'"/>
+    </subject>
+    <encounter>
+        <reference value="Encounter/encounter-completed-inpatient-ade-1"/>
+    </encounter>
+    <date value="2021-01-04T09:10:14Z"/>
+    <author>
+        <reference value="Practitioner/practitioner-ed-endocrinols-example"/>
+        <display value="Dr. Ed Endocrinols"/>
+    </author>
+    <title value="Adverse Event Note"/>
+    <confidentiality value="N"/>
+    <attester>
+        <mode value="legal"/>
+        <time value="2021-01-04T09:10:14Z"/>
+        <party>
+            <reference value="Practitioner/practitioner-ed-endocrinols-example"/>
+            <display value="Dr. Ed Endocrinols"/>
+        </party>
+    </attester>
+    <custodian>
+        <reference value="Organization/organization-hospital-physician-group-example"/>
+        <display value="Hospitalists of the World"/>
+    </custodian>
+    <section>
+        <title value="Problem Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="11450-4"/>
+                <display value="Problem list - Reported"/>
+            </coding>
+        </code>
+    </section>
+    <section>
+        <title value="Procedures Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="47519-4"/>
+                <display value="History of Procedures Document"/>
+            </coding>
+        </code>
+    </section>
+    <section>
+        <title value="Results Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="30954-2"/>
+                <display value="Relevant diagnostic tests/laboratory data Narrative"/>
+            </coding>
+        </code>
+        <entry>
+            <reference value="Observation/observation-lab-ade"/>
+            <display value="Observation: Lab Test - Glucose [Moles/volume] in Serum or Plasma --1 hour post meal"/>
+        </entry>
+    </section>
+    <section>
+        <title value="Medication Section"/>
+        <code>
+            <coding>
+                <system value="http://loinc.org"/>
+                <code value="10160-0"/>
+                <display value="History of Medication use Narrative"/>
+            </coding>
+            <entry>
+                <reference value="MedicationAdministration/medicationadministration-metformin-er"/>
+                <display value="MedicationAdminstration: 24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet"/>
+            </entry>
+        </code>
+    </section>
+</Composition>
