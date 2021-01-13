@@ -270,9 +270,9 @@
                 <rules value="open"/>
             </slicing>
         </element>
-        <element id="Composition.section:medicationSection.entry:medicationAdministration">
+        <element id="Composition.section:medicationSection.entry:medicationAdministrationAntidiabetics">
             <path value="Composition.section.entry"/>
-            <sliceName value="medicationAdministration"/>
+            <sliceName value="medicationAdministrationAntidiabetics"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
