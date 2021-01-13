@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hypoglycemia"/>
     <meta>
-        <versionId value="23"/>
-        <lastUpdated value="2020-12-14T04:31:16.450+00:00"/>
-        <source value="#dsI38eXx0VLFMKWe"/>
+        <versionId value="25"/>
+        <lastUpdated value="2021-01-13T07:37:36.609+00:00"/>
+        <source value="#RLIFMX5A6T0xKoI8"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
@@ -29,7 +29,6 @@
     <type value="Composition"/>
     <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Composition"/>
     <derivation value="constraint"/>
-    
     <differential>
         <element id="Composition">
             <path value="Composition"/>
@@ -44,6 +43,7 @@
                     <code value="85893-6"/>
                 </coding>
             </patternCodeableConcept>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.subject">
             <path value="Composition.subject"/>
@@ -77,6 +77,7 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
+            <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemSection">
             <path value="Composition.section"/>

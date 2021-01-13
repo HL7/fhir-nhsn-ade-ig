@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Condition
+    xmlns="http://hl7.org/fhir">
+    <id value="condition-diabetes-ade"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-01-13T08:58:31.809+00:00"/>
+        <source value="#Vw8L3B1BKfmdGmPK"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+    </meta>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+            <code value="encounter-diagnosis"/>
+            <display value="Encounter Diagnosis"/>
+        </coding>
+    </category>
+    <code>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="73211009"/>
+            <display value="Diabetes mellitus (disorder)"/>
+        </coding>
+    </code>
+    <subject>
+        <reference value="Patient/patient-ade-1"/>
+        <display value="Name: 'masked'"/>
+    </subject>
+    <onsetDateTime value="2020-08-23"/>
+</Condition>

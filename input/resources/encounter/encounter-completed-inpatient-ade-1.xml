@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter
+    xmlns="http://hl7.org/fhir">
+    <id value="encounter-completed-inpatient-ade-1"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-01-13T08:58:31.865+00:00"/>
+        <source value="#aqzXMUHvXF7e4agZ"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+    </meta>
+    <status value="finished"/>
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <code value="IMP"/>
+        <display value="inpatient encounter"/>
+    </class>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="24882007"/>
+        </coding>
+        <text value="Medical consultation on hospital inpatient"/>
+    </type>
+    <subject>
+        <reference value="Patient/patient-ade-1"/>
+        <display value="Name: 'masked'"/>
+    </subject>
+    <period>
+        <start value="2020-08-01"/>
+        <end value="2020-08-12"/>
+    </period>
+    <diagnosis>
+        <condition>
+            <reference value="Condition/condition-diabetes-ade"/>
+        </condition>
+    </diagnosis>
+    <hospitalization>
+        <dischargeDisposition>
+            <coding>
+                <system value="http://terminology.hl7.org/CodeSystem/discharge-disposition"/>
+                <code value="home"/>
+            </coding>
+            <text value="Discharged to home"/>
+        </dischargeDisposition>
+    </hospitalization>
+    <location>
+        <location>
+            <reference value="Location/location-salem-medical-center-ade"/>
+            <display value="Clinic Bldg A, Salem Medical Center, 4646 Brown Rd, Salem, MA 02368"/>
+        </location>
+    </location>
+    <serviceProvider>
+        <reference value="Organization/organization-salem-medical-center-ade"/>
+        <display value="Salem Medical Center, 22222 Health Authority Drive, Ann Arbor MI, 99999"/>
+    </serviceProvider>
+</Encounter>

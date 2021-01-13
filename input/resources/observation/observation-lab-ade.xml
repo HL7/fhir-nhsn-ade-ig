@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Observation
+    xmlns="http://hl7.org/fhir">
+    <id value="observation-lab-ade"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-01-13T08:58:31.759+00:00"/>
+        <source value="#7tjGpzNJGVtXcjhw"/>
+        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+    </meta>
+    <status value="final"/>
+    <category>
+        <coding>
+            <system value="http://terminology.hl7.org/CodeSystem/observation-category"/>
+            <code value="laboratory"/>
+            <display value="Laboratory"/>
+        </coding>
+        <text value="Laboratory"/>
+    </category>
+    <code>
+        <coding>
+            <system value="http://loinc.org"/>
+            <code value="40287-5"/>
+            <display value="Glucose [Moles/volume] in Serum or Plasma --1 hour post meal"/>
+        </coding>
+        <text value="Glucose [Moles/volume] in Serum or Plasma --1 hour post meal"/>
+    </code>
+    <subject>
+        <reference value="Patient/patient-ade-1"/>
+        <display value="Name: 'masked'"/>
+    </subject>
+    <effectiveDateTime value="2020-08-04"/>
+</Observation>

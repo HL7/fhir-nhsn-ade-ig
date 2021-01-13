@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicationAdministration
+    xmlns="http://hl7.org/fhir">
+    <id value="medicationadministration-metformin-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-12-24T15:58:20.602+00:00"/>
+        <source value="#wqNi14eEWiIeg408"/>
+        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+    </meta>
+    <status value="completed"/>
+    <medicationReference>
+        <reference value="Medication/medication-metformin-example"/>
+    </medicationReference>
+    <subject>
+        <reference value="Patient/patient-harry-hypoglycemic-example"/>
+        <display value="Harry Hypoglycemic"/>
+    </subject>
+    <context>
+        <reference value="Encounter/encounter-primary-care-example"/>
+    </context>
+    <effectiveDateTime value="2021-01-04T04:30:00+01:00"/>
+    <performer>
+        <actor>
+            <reference value="Practitioner/practitioner-ed-endocrinols-example"/>
+            <display value="Ed Endocrinols"/>
+        </actor>
+    </performer>
+    <dosage>
+        <route>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="26643006"/>
+                <display value="Oral route (qualifier value)"/>
+            </coding>
+        </route>
+        <dose>
+            <value value="100"/>
+            <unit value="mg/mL"/>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="mg/mL"/>
+        </dose>
+    </dosage>
+</MedicationAdministration>

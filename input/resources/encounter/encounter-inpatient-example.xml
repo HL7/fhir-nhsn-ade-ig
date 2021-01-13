@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Encounter
+    xmlns="http://hl7.org/fhir">
+    <id value="encounter-inpatient-example"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2020-12-24T16:04:02.731+00:00"/>
+        <source value="#0iVdQ7vmh3cAIABY"/>
+        <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+    </meta>
+    <status value="finished"/>
+    <class>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+        <code value="IMP"/>
+        <display value="inpatient encounter"/>
+    </class>
+    <type>
+        <coding>
+            <system value="http://snomed.info/sct"/>
+            <code value="24882007"/>
+            <display value="Medical consultation on hospital inpatient"/>
+        </coding>
+        <text value="Medical consultation on hospital inpatient"/>
+    </type>
+    <subject>
+        <reference value="Patient/patient-harry-hypoglycemic-example"/>
+    </subject>
+    <period>
+        <start value="2021-01-04T17:00:14-05:00"/>
+    </period>
+</Encounter>

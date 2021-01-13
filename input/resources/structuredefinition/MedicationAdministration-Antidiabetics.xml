@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="MedicationAdministration-Antidiabetics"/>
     <meta>
-        <versionId value="9"/>
-        <lastUpdated value="2020-12-14T04:42:27.916+00:00"/>
-        <source value="#8jxonagdySHD0qno"/>
+        <versionId value="12"/>
+        <lastUpdated value="2021-01-13T08:21:28.363+00:00"/>
+        <source value="#9jMLFzNGdW2iVPpS"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
     <name value="MedicationAdministrationAntidiabetics"/>
@@ -46,7 +46,6 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
-            <max value="1"/>
         </element>
         <element id="MedicationAdministration.medicationCodeableConcept.coding:oralAntiDiabeticCode">
             <path value="MedicationAdministration.medicationCodeableConcept.coding"/>
@@ -81,6 +80,19 @@
             <type>
                 <code value="dateTime"/>
             </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.dosage">
+            <path value="MedicationAdministration.dosage"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.dosage.route">
+            <path value="MedicationAdministration.dosage.route"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="MedicationAdministration.dosage.dose">
+            <path value="MedicationAdministration.dosage.dose"/>
+            <mustSupport value="true"/>
         </element>
     </differential>
 </StructureDefinition>

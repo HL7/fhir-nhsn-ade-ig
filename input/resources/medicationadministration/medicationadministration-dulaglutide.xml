@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MedicationAdministration
+    xmlns="http://hl7.org/fhir">
+    <id value="medicationadministration-dulaglutide"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-01-13T08:58:31.809+00:00"/>
+        <source value="#7qglfCl0FOzcVohi"/>
+        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+    </meta>
+    <status value="completed"/>
+    <medicationCodeableConcept>
+        <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="1043563"/>
+            <display value="24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet"/>
+        </coding>
+        <text value="24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet"/>
+    </medicationCodeableConcept>
+    <subject>
+        <reference value="Patient/patient-ade-1"/>
+    </subject>
+    <effectivePeriod>
+        <start value="2020-04-08"/>
+        <end value="2018-04-08"/>
+    </effectivePeriod>
+    <dosage>
+        <route>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="26643006"/>
+                <display value="Oral Route"/>
+            </coding>
+        </route>
+        <method>
+            <coding>
+                <system value="http://snomed.info/sct"/>
+                <code value="421521009"/>
+                <display value="Swallow - dosing instruction imperative (qualifier value)"/>
+            </coding>
+        </method>
+        <dose>
+            <value value="2"/>
+            <unit value="TAB"/>
+            <system value="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"/>
+            <code value="TAB"/>
+        </dose>
+    </dosage>
+</MedicationAdministration>
