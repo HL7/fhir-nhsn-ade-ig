@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hypoglycemia"/>
     <meta>
-        <versionId value="29"/>
-        <lastUpdated value="2021-01-14T05:15:46.271+00:00"/>
-        <source value="#V66a0WkB465jPUhl"/>
+        <versionId value="30"/>
+        <lastUpdated value="2021-01-14T06:10:49.464+00:00"/>
+        <source value="#EOfU2rw4Dk5VmCNr"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
@@ -3164,36 +3164,6 @@
                 <map value=".entry"/>
             </mapping>
         </element>
-        <element id="Composition.section:resultSection.entry:USCoreObservationLab">
-            <path value="Composition.section.entry"/>
-            <sliceName value="USCoreObservationLab"/>
-            <short value="A reference to data that supports this section"/>
-            <definition value="A reference to the actual resource from which the narrative in the section is derived."/>
-            <comment value="If there are no entries in the list, an emptyReason SHOULD be provided."/>
-            <min value="0"/>
-            <max value="*"/>
-            <base>
-                <path value="Composition.section.entry"/>
-                <min value="0"/>
-                <max value="*"/>
-            </base>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-            </type>
-            <condition value="cmp-2"/>
-            <mustSupport value="true"/>
-            <isModifier value="false"/>
-            <isSummary value="false"/>
-            <mapping>
-                <identity value="rim"/>
-                <map value=".outboundRelationship[typeCode=COMP] or  .participation[typeCode=SBJ]"/>
-            </mapping>
-            <mapping>
-                <identity value="cda"/>
-                <map value=".entry"/>
-            </mapping>
-        </element>
         <element id="Composition.section:resultSection.entry:ObservationLabBloodGlucose">
             <path value="Composition.section.entry"/>
             <sliceName value="ObservationLabBloodGlucose"/>
@@ -3994,16 +3964,6 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
-            <mustSupport value="true"/>
-        </element>
-        <element id="Composition.section:resultSection.entry:USCoreObservationLab">
-            <path value="Composition.section.entry"/>
-            <sliceName value="USCoreObservationLab"/>
-            <min value="0"/>
-            <type>
-                <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"/>
-            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:resultSection.entry:ObservationLabBloodGlucose">
