@@ -3,21 +3,26 @@
     xmlns="http://hl7.org/fhir">
     <id value="medicationadministration-metformin-example"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2020-12-24T15:58:20.602+00:00"/>
-        <source value="#wqNi14eEWiIeg408"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-01-14T05:46:36.398+00:00"/>
+        <source value="#9DA5wo4YZ8MCCJ6f"/>
         <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
     </meta>
     <status value="completed"/>
-    <medicationReference>
-        <reference value="Medication/medication-metformin-example"/>
-    </medicationReference>
+    <medicationCodeableConcept>
+        <coding>
+            <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+            <code value="2200518"/>
+            <display value="metformin hydrochloride 100 MG/ML Extended Release Suspension"/>
+        </coding>
+        <text value="metformin hydrochloride 100 MG/ML Extended Release Suspension"/>
+    </medicationCodeableConcept>
     <subject>
         <reference value="Patient/patient-harry-hypoglycemic-example"/>
         <display value="Harry Hypoglycemic"/>
     </subject>
     <context>
-        <reference value="Encounter/encounter-primary-care-example"/>
+        <reference value="Encounter/encounter-inpatient-example"/>
     </context>
     <effectiveDateTime value="2021-01-04T04:30:00+01:00"/>
     <performer>

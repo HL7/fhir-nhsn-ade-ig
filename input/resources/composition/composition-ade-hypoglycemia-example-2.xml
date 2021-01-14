@@ -3,6 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="composition-ade-hypoglycemia-example-2"/>
     <meta>
+        <versionId value="3"/>
+        <lastUpdated value="2021-01-14T05:19:13.460+00:00"/>
+        <source value="#4MWz04m8oVoh6ZB2"/>
         <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     </meta>
     <status value="final"/>
@@ -40,26 +43,6 @@
         <display value="Hospitalists of the World"/>
     </custodian>
     <section>
-        <title value="Problem Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11450-4"/>
-                <display value="Problem list - Reported"/>
-            </coding>
-        </code>
-    </section>
-    <section>
-        <title value="Procedures Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="47519-4"/>
-                <display value="History of Procedures Document"/>
-            </coding>
-        </code>
-    </section>
-    <section>
         <title value="Results Section"/>
         <code>
             <coding>
@@ -81,10 +64,10 @@
                 <code value="10160-0"/>
                 <display value="History of Medication use Narrative"/>
             </coding>
-            <entry>
-                <reference value="MedicationAdministration/medicationadministration-metformin-er"/>
-                <display value="MedicationAdminstration: 24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet"/>
-            </entry>
         </code>
+        <entry>
+            <reference value="MedicationAdministration/medicationadministration-metformin-er"/>
+            <display value="MedicationAdminstration: 24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet"/>
+        </entry>
     </section>
 </Composition>

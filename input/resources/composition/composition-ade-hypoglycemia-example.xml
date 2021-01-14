@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="composition-ade-hypoglycemia-example"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2020-12-24T15:44:43.772+00:00"/>
-        <source value="#pZoxt1OApjJQA0AI"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-01-14T05:16:11.050+00:00"/>
+        <source value="#SDsVA7GwEvIR4FFa"/>
         <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
     </meta>
     <status value="final"/>
@@ -21,7 +21,7 @@
         <display value="Harry Hypoglycemic"/>
     </subject>
     <encounter>
-        <reference value="Encounter/encounter-primary-care-example"/>
+        <reference value="Encounter/encounter-inpatient-example"/>
     </encounter>
     <date value="2021-01-04T09:10:14Z"/>
     <author>
@@ -43,26 +43,6 @@
         <display value="Hospitalists of the World"/>
     </custodian>
     <section>
-        <title value="Problem Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="11450-4"/>
-                <display value="Problem list - Reported"/>
-            </coding>
-        </code>
-    </section>
-    <section>
-        <title value="Procedures Section"/>
-        <code>
-            <coding>
-                <system value="http://loinc.org"/>
-                <code value="47519-4"/>
-                <display value="History of Procedures Document"/>
-            </coding>
-        </code>
-    </section>
-    <section>
         <title value="Results Section"/>
         <code>
             <coding>
@@ -71,6 +51,10 @@
                 <display value="Relevant diagnostic tests/laboratory data Narrative"/>
             </coding>
         </code>
+        <entry>
+            <reference value="Observation/observation-lab-ade-hh"/>
+            <display value="Observation: Lab Test - Fasting glucose [Mass/volume] in Capillary blood"/>
+        </entry>
     </section>
     <section>
         <title value="Medication Section"/>
@@ -81,5 +65,9 @@
                 <display value="History of Medication use Narrative"/>
             </coding>
         </code>
+        <entry>
+            <reference value="MedicationAdministration/medicationadministration-metformin-example"/>
+            <display value="MedicationAdminstration: metformin hydrochloride 100 MG/ML Extended Release Suspension"/>
+        </entry>
     </section>
 </Composition>

@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-ade-hypo"/>
     <meta>
-        <versionId value="19"/>
-        <lastUpdated value="2021-01-13T09:01:50.940+00:00"/>
-        <source value="#dSQl63xegNevdVPq"/>
+        <versionId value="33"/>
+        <lastUpdated value="2021-01-14T05:45:13.723+00:00"/>
+        <source value="#H9XbdUI4xLbVMVKD"/>
     </meta>
     <url value="http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"/>
     <version value="0.1.0"/>
@@ -53,131 +53,151 @@
         </resource>
         <resource>
             <reference>
-                <reference value="StructureDefinition/MedicationAdministration-Antidiabetics"/>
-                <display value="MedicationAdministrationAntidiabetics"/>
-            </reference>
-            <name value="MedicationAdministrationAntidiabetics"/>
-            <description value="This profile represents the administration of an antidiabetic drug."/>
-            <exampleBoolean value="false"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Composition/composition-ade-hypoglycemia-example"/>
                 <display value="Adverse Event Note"/>
             </reference>
-            <name value="Adverse Event Note"/>
+            <name value="Composition - ADE Hypoglycemia [Harry Hypoglycemic]"/>
+            <description value="Example of Composition-ade-hypoglycemia profile (Harry Hypoglycemic)"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Patient/patient-harry-hypoglycemic-example"/></reference>
-            <name value="Harry Hypoglycemic"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Practitioner/practitioner-ed-endocrinols-example"/></reference>
-            <name value="Practitioner Dr. Ed Endocrinols example"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Organization/organization-hospital-physician-group-example"/>
-                <display value="Hospitalists of the World"/>
+                <reference value="Composition/composition-ade-hypoglycemia-example-2"/>
+                <display value="Adverse Event Note"/>
             </reference>
-            <name value="Organization - Hospitalists of the World example"/>
+            <name value="Composition - ADE Hypoglycemia [Name 'masked']"/>
+            <description value="Example of Composition-ade-hypoglycemia profile (Name 'masked')"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
         </resource>
         <resource>
             <reference>
-                <reference value="MedicationAdministration/medicationadministration-metformin-example"/></reference>
-            <name value="MedicationAdministration - Metformin example"/>
+                <reference value="MedicationAdministration/medicationadministration-metformin-er"/></reference>
+            <name value="MedicationAdministration Antidiabetics [Metformin ER - Name 'masked']"/>
+            <description value="Example of MedicationAdministration-Antidiabetics profile (Name 'masked')"/>
             <exampleBoolean value="false"/>
             <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Medication/medication-metformin-example"/></reference>
-            <name value="Medication - Metformin example"/>
+                <reference value="MedicationAdministration/medicationadministration-metformin-example"/></reference>
+            <name value="MedicationAdministration Antidiabetics [Metformin - Harry Hypoglycemic]"/>
+            <description value="Example of MedicationAdministration-Antidiabetics profile (Harry Hypoglycemic)"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-medication"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Encounter/encounter-inpatient-example"/></reference>
-            <name value="Encounter - Inpatient example"/>
+                <reference value="StructureDefinition/MedicationAdministration-Antidiabetics"/>
+                <display value="MedicationAdministrationAntidiabetics"/>
+            </reference>
+            <name value="MedicationAdministration - Antidiabetics"/>
+            <description value="This profile represents the administration of an antidiabetic drug."/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-lab-ade"/></reference>
+            <name value="Observation Lab ADE [Glucose - 1 hr post meal - Name 'masked']"/>
+            <description value="Example of Observation-lab-blood-glucose profile (Name 'masked')"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
         </resource>
         <resource>
             <reference>
                 <reference value="StructureDefinition/Observation-lab-blood-glucose"/>
                 <display value="Observation Laboratory Blood Glucose"/>
             </reference>
-            <name value="Observation Laboratory Blood Glucose"/>
+            <name value="Observation - Laboratory Blood Glucose"/>
             <description value="This profile reprsents a blood glucose lab test"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Organization/organization-salem-medical-center-ade"/>
-                <display value="Salem Medical Center"/>
-            </reference>
-            <name value="Salem Medical Center"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Organization/organization-acme-laboratory-ade"/>
-                <display value="Acme_Labs"/>
-            </reference>
-            <name value="Acme_Labs"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Patient/patient-ade-1"/></reference>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/observation-lab-ade"/></reference>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
-        </resource>
-        <resource>
-            <reference>
                 <reference value="Condition/condition-diabetes-ade"/></reference>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+            <name value="US Core Condition [Diabetes - Name 'masked']"/>
+            <description value="Example of us-core-condition profile (Name 'masked')"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/encounter-inpatient-example"/></reference>
+            <name value="US Core Encounter [Inpatient - Harry Hypoglycemic]"/>
+            <description value="Example of us-core-encounter profile (Harry Hypoglycemic)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Encounter/encounter-completed-inpatient-ade-1"/></reference>
+            <name value="US Core Encounter [Inpatient - Name 'masked']"/>
+            <description value="Example of us-core-encounter profile (Name 'masked')"/>
+            <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
                 <reference value="Location/location-salem-medical-center-ade"/>
                 <display value="Clinic Bldg A, Salem Medical Center"/>
             </reference>
-            <name value="Clinic Bldg A, Salem Medical Center"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-location"/>
+            <name value="US Core Location [Clinic Bldg A, Salem Medical Center]"/>
+            <description value="Example of us-core-location profile (Clinic Bldg A, Salem Medical Center)"/>
+            <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
-                <reference value="MedicationAdministration/medicationadministration-dulaglutide"/></reference>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+                <reference value="Organization/organization-acme-laboratory-ade"/>
+                <display value="Acme_Labs"/>
+            </reference>
+            <name value="US Core Organization [Acme Labs]"/>
+            <description value="Example of us-core-organization profile (Acme Labs)"/>
+            <exampleBoolean value="true"/>
         </resource>
         <resource>
             <reference>
-                <reference value="Encounter/encounter-completed-inpatient-ade-1"/></reference>
+                <reference value="Organization/organization-hospital-physician-group-example"/>
+                <display value="Hospitalists of the World"/>
+            </reference>
+            <name value="US Core Organization [Hospitalists of the World]"/>
+            <description value="Example of us-core-organization profile (Hospitalists of the World)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Organization/organization-salem-medical-center-ade"/>
+                <display value="Salem Medical Center"/>
+            </reference>
+            <name value="US Core Organization [Salem Medical Center]"/>
+            <description value="Example of us-core-organization profile (Salem Medical Center)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-harry-hypoglycemic-example"/></reference>
+            <name value="US Core Patient [Harry Hypoglycemic]"/>
+            <description value="Example of us-core-patient profile (Harry Hypoglycemic)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Patient/patient-ade-1"/></reference>
+            <name value="US Core Patient [Name 'masked']"/>
+            <description value="Example of us-core-patient profile (Name 'masked')"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Practitioner/practitioner-ed-endocrinols-example"/></reference>
+            <name value="US Core Practitioner [Ed Endocrinols]"/>
+            <description value="Example of us-core-practitioner profile (Ed Endocrinols)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-lab-ade-hh"/></reference>
+            <name value="Observation Lab Blood Gluclose [Harry Hypoglycemia]"/>
+            <description value="Example of Observation-lab-blood-glucose profile [Fasting glucose [Mass/volume] in Capillary blood - Harry Hypoglycemia]"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
         </resource>
         <page>
             <nameUrl value="index.html"/>

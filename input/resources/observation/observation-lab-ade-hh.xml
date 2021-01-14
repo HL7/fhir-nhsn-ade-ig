@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Observation
     xmlns="http://hl7.org/fhir">
-    <id value="observation-lab-ade"/>
+    <id value="observation-lab-ade-hh"/>
     <meta>
         <versionId value="2"/>
-        <lastUpdated value="2021-01-14T06:00:46.180+00:00"/>
-        <source value="#qh3MOq82GoXBcwQA"/>
+        <lastUpdated value="2021-01-14T06:00:46.181+00:00"/>
+        <source value="#ICV78ozbB6BFeqRT"/>
         <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
     </meta>
     <status value="final"/>
@@ -20,19 +20,19 @@
     <code>
         <coding>
             <system value="http://loinc.org"/>
-            <code value="40287-5"/>
-            <display value="Glucose [Moles/volume] in Serum or Plasma --1 hour post meal"/>
+            <code value="1556-0"/>
+            <display value="Fasting glucose [Mass/volume] in Capillary blood"/>
         </coding>
-        <text value="Glucose [Moles/volume] in Serum or Plasma --1 hour post meal"/>
+        <text value="Fasting glucose [Mass/volume] in Capillary blood"/>
     </code>
     <subject>
-        <reference value="Patient/patient-ade-1"/>
-        <display value="Name: 'masked'"/>
+        <reference value="Patient/patient-harry-hypoglycemic-example"/>
+        <display value="Harry Hypoglycemic"/>
     </subject>
     <effectiveDateTime value="2020-08-04"/>
     <valueQuantity>
-        <value value="3.4"/>
-        <unit value="mmol/l"/>
+        <value value="60"/>
+        <unit value="mg/dL"/>
         <system value="http://unitsofmeasure.org"/>
     </valueQuantity>
 </Observation>

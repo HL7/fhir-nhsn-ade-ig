@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="medicationadministration-metformin-er"/>
     <meta>
-        <versionId value="1"/>
-        <lastUpdated value="2021-01-13T08:58:31.809+00:00"/>
-        <source value="#7qglfCl0FOzcVohi"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-01-14T05:46:36.358+00:00"/>
+        <source value="#HrVdepSCVPoGMMHl"/>
         <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
     </meta>
     <status value="completed"/>
@@ -20,10 +20,10 @@
     <subject>
         <reference value="Patient/patient-ade-1"/>
     </subject>
-    <effectivePeriod>
-        <start value="2020-04-08"/>
-        <end value="2018-04-08"/>
-    </effectivePeriod>
+    <context>
+        <reference value="Encounter/encounter-completed-inpatient-ade-1"/>
+    </context>
+    <effectiveDateTime value="2021-01-04T04:30:00+01:00"/>
     <dosage>
         <route>
             <coding>
