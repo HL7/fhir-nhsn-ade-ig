@@ -22,6 +22,6 @@
 	],
 	"package-id": "hl7.fhir.us.nhsn-ade",
 	"title": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
-	"canonical": "http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade",
+	"canonical": "http://hl7.org/fhir/us/nhsn-ade",
 	"category": "Public Health"
 }
