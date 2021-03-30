@@ -6,7 +6,7 @@
         <versionId value="7"/>
         <lastUpdated value="2021-01-14T05:16:11.050+00:00"/>
         <source value="#SDsVA7GwEvIR4FFa"/>
-        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
+        <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
     </meta>
     <status value="final"/>
     <type>

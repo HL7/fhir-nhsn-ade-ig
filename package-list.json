@@ -2,16 +2,26 @@
 	"list": [
 		{
 			"version": "current",
-			"path": "https://build.fhir.org/ig/HL7/ade-hypo",
-			"desc": "",
+			"path": "http://build.fhir.org/ig/HL7/nhsn-ade",
+			"desc": "Continuous Integration Build (latest in version control)",
 			"fhirversion": "4.0.1",
 			"date": "",
-			"sequence": "",
+			"sequence": "STU 1 on FHIR R4",
 			"status": "ci-build",
 			"current": true
+		},
+		{
+			"version": "0.1.0",
+			"desc": "Ballot for FHIR STU Release 1",
+			"path": "http://hl7.org/fhir/us/nhsn-ade",
+			"fhirversion": "4.0.1",
+			"date": "2021-03-30",
+			"sequence": "STU 1 on FHIR R4",
+			"status": "ballot"
 		}
 	],
-	"package-id": "hl7.fhir.us.ade-hypo",
+	"package-id": "hl7.fhir.us.nhsn-ade",
 	"title": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
-	"canonical": "http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"
+	"canonical": "http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade",
+	"category": "Public Health"
 }

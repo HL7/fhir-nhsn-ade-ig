@@ -6,7 +6,7 @@
         <versionId value="2"/>
         <lastUpdated value="2021-01-14T06:00:46.181+00:00"/>
         <source value="#ICV78ozbB6BFeqRT"/>
-        <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+        <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
     </meta>
     <status value="final"/>
     <category>

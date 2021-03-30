@@ -1,0 +1,4377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bundle xmlns:uuid="http://www.uuid.org" xmlns="http://hl7.org/fhir">
+   <id value="bundle-document-ade"/>
+   <identifier>
+      <system value="urn:ietf:rfc:3986"/>
+      <value value="urn:uuid:905118F3-762A-11EB-7479-09173F13E4C5"/>
+   </identifier>
+   <type value="document"/>
+   <timestamp value="2021-02-24T08:57:54.687+10:00"/>
+   <entry>
+      <fullUrl value="http://example.org/fake-fhir-server/Composition/composition-ade-ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+      <resource>
+         <Composition>
+            <id value="composition-ade-ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+            <meta>
+               <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
+            </meta>
+            <status value="final"/>
+            <type>
+               <coding>
+                  <system value="http://loinc.org"/>
+                  <code value="85893-6"/>
+                  <display value="Adverse event note"/>
+               </coding>
+            </type>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <date value="2021-02-15T14:26:00Z"/>
+            <title value="Inpatient Medication Administration"/>
+            <section>
+               <title value="Medication Section"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="10160-0"/>
+                     <display value="History of Medication use Narrative"/>
+                  </coding>
+               </code>
+               <entry>
+                  <reference value="MedicationRequest/e-AHwoUq-A3n2XZac8P-KHchpXH639-qq3Se3U5WpYe43"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/e.vb00G8xhJifs06cXU1jSV8kkGpmyuNP5NxtZCmDU0w3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/e4F4qndRDHXqunXPKR-ZJrndUXK1b4BRql6lNf.fJHGc3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eBWfQiHa1ys0MvxjSQqazMXfgGT45-FR2V527EIelXag3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eEX80hs2MzcrYbX2FvVTSmRwChKGPmSG2SFutZVlw-VA3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eIRXVH5TXss0pnxhYYbINyUFQ7mhKUJhVjrspEWfg5AI3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eNicwsxzgz9r4Avli9JazlksCpB97a8hGGbnEvksfECE3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eRKL3rS9cTxB7Ii2zxvro4EptpDAEktz41mIli9Yt8Kw3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eVdXNyNTQIN.M16jnul.ICcixqk-qUoPnxbCScl4a-KE3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/ebErIaIQnxDX7KH7tEhSCnl0SjDW10cAgTo8u3TwdHJQ3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/ebeA0BJJefV3S76LtdOBGsHYYAafpQzoHFVTcEFzzK7w3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/edx0rA8kLG2IcS0aJzLt14YxfkxkOxbXMDIGHaSeogKE3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/ef02wODNsT7tnwCLr9OqnzAqCpDZ5l9brB3m268382gk3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/epOvwpVGB9c8GRyaqnZFkj.GFpcyg1RSuohT3gRwTtAM3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/epPnTVKhUwus3R0gtDf8ZMWD1fHUMCo.yc9dCDVo8cak3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/eqt6MWjYdS7WSEK0aAv0B2vg8DvA4xv6BxeFf1nDRqnA3"/>
+               </entry>
+               <entry>
+                  <reference value="MedicationRequest/euNi-DUtkK5lRFGHCf1edu5ylOA90JQwatcMu9AkUMm83"/>
+               </entry>
+            </section>
+            <section>
+               <title value="Problems Section"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="11450-4"/>
+                     <display value="Problem list - Reported"/>
+                  </coding>
+               </code>
+            </section>
+            <section>
+               <title value="Results Section"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="30954-2"/>
+                     <display value="Relevant Dx tests/lab data"/>
+                  </coding>
+               </code>
+            </section>
+            <section>
+               <title value="Procedure Section"/>
+               <code>
+                  <coding>
+                     <system value="http://loinc.org"/>
+                     <code value="30954-2"/>
+                     <display value="Relevant Dx tests/lab data"/>
+                  </coding>
+               </code>
+            </section>
+         </Composition>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/e-AHwoUq-A3n2XZac8P-KHchpXH639-qq3Se3U5WpYe43"/>
+      <resource>
+         <MedicationRequest>
+            <id value="e-AHwoUq-A3n2XZac8P-KHchpXH639-qq3Se3U5WpYe43"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609292"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+               <text value="Community"/>
+            </category>
+            <reportedBoolean value="true"/>
+            <medicationReference>
+               <reference value="Medication/8178ea51fd07"/>
+               <display value="BLOOD GLUCOSE TEST STRIPS"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-16T15:19:51Z"/>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <text value="1 each by Misc.(Non-Drug; Combo Route) route as needed (BG checks)."/>
+               <patientInstruction value="1 each by Misc.(Non-Drug; Combo Route) route as needed (BG checks)."/>
+               <timing>
+                  <repeat>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="PRN"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="true"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="24"/>
+                     <display value="Misc.(Non-Drug; Combo Route)"/>
+                  </coding>
+                  <text value="Misc.(Non-Drug; Combo Route)"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="each"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="{each}"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/8178ea51fd07"/>
+      <resource>
+         <Medication>
+            <id value="8178ea51fd07"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="V04CA"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="6373"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1648211"/>
+               </coding>
+               <text value="BLOOD GLUCOSE TEST STRIPS"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Strp"/>
+                  <display value="Strip"/>
+               </coding>
+               <text value="Strip"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="V04CA"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="6373"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1648211"/>
+                  </coding>
+                  <text value="BLOOD GLUCOSE TEST STRIPS"/>
+               </itemCodeableConcept>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+      <resource>
+         <Patient>
+            <id value="ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-race">
+               <extension url="ombCategory">
+                  <valueCoding>
+                     <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                     <code value="2106-3"/>
+                     <display value="White"/>
+                  </valueCoding>
+               </extension>
+               <extension url="text">
+                  <valueString value="White"/>
+               </extension>
+            </extension>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity">
+               <extension url="ombCategory">
+                  <valueCoding>
+                     <system value="urn:oid:2.16.840.1.113883.6.238"/>
+                     <code value="UNK"/>
+                     <display value="Unknown"/>
+                  </valueCoding>
+               </extension>
+               <extension url="text">
+                  <valueString value="Unknown"/>
+               </extension>
+            </extension>
+            <extension url="http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex">
+               <valueCode value="M"/>
+            </extension>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:2.16.840.1.113883.4.1"/>
+               <value value="222-32-5897"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="CEID"/>
+               </type>
+               <value value="NM2-651-8600"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EPI"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.5.737384.0"/>
+               <value value="E2407568"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <value value="Z2412207"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="FHIR"/>
+               </type>
+               <value value="To2ZUDvtQhK2I7geCgUuFK3UX7iw4wo.IHs-04l4jGPkB"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="FHIR STU3"/>
+               </type>
+               <value value="ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <value value="  Z2412207"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="MRN"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.5.737384.14"/>
+               <value value="05012190"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="MRN2"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.5.737384.154"/>
+               <value value="5012190"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <use value="official"/>
+               <text value="Charles Lantanatrial"/>
+               <family value="Lantanatrial"/>
+               <given value="Charles"/>
+            </name>
+            <name>
+               <use value="usual"/>
+               <text value="Charles Lantanatrial"/>
+               <family value="Lantanatrial"/>
+               <given value="Charles"/>
+            </name>
+            <gender value="male"/>
+            <birthDate value="1982-02-09"/>
+            <deceasedBoolean value="false"/>
+            <address>
+               <use value="old"/>
+               <line value="689 Someplace"/>
+               <city value="OMAHA"/>
+               <district value="DOUGLAS"/>
+               <state value="NE"/>
+               <postalCode value="68118"/>
+               <country value="USA"/>
+            </address>
+            <address>
+               <use value="home"/>
+               <line value="689 Someplace"/>
+               <city value="OMAHA"/>
+               <district value="DOUGLAS"/>
+               <state value="NE"/>
+               <postalCode value="68118"/>
+               <country value="USA"/>
+            </address>
+            <communication>
+               <language>
+                  <coding>
+                     <system value="urn:ietf:bcp:47"/>
+                     <code value="en"/>
+                     <display value="English"/>
+                  </coding>
+                  <text value="English"/>
+               </language>
+               <preferred value="true"/>
+            </communication>
+            <managingOrganization>
+               <reference value="Organization/eL8jalKweJidgkhSjf-wvog3"/>
+               <display value="Nebraska Medicine"/>
+            </managingOrganization>
+         </Patient>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/e.vb00G8xhJifs06cXU1jSV8kkGpmyuNP5NxtZCmDU0w3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="e.vb00G8xhJifs06cXU1jSV8kkGpmyuNP5NxtZCmDU0w3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609269"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/d81f94dd-39cf-4115-9f1b-9fab97d2dd85"/>
+               <display value="GLUCAGON (HUMAN RECOMBINANT) 1 MG/ML SOLUTION FOR INJECTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T16:43:55Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="PRN"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="true"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="6"/>
+                     <display value="Intramuscular"/>
+                  </coding>
+                  <text value="Intramuscular"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/d81f94dd-39cf-4115-9f1b-9fab97d2dd85"/>
+      <resource>
+         <Medication>
+            <id value="d81f94dd-39cf-4115-9f1b-9fab97d2dd85"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="H04AA01"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="66517"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="4832"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="151823"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="153095"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="310497"/>
+               </coding>
+               <text value="GLUCAGON (HUMAN RECOMBINANT) 1 MG/ML SOLUTION FOR INJECTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="SolR"/>
+                  <display value="Recon Soln"/>
+               </coding>
+               <text value="Recon Soln"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="H04AA01"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="66517"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="4832"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="151823"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="153095"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="310497"/>
+                  </coding>
+                  <text value="GLUCAGON (HUMAN RECOMBINANT) 1 MG/ML SOLUTION FOR INJECTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="1"/>
+                     <unit value="mg/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="1"/>
+                     <unit value="mg/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/e4F4qndRDHXqunXPKR-ZJrndUXK1b4BRql6lNf.fJHGc3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="e4F4qndRDHXqunXPKR-ZJrndUXK1b4BRql6lNf.fJHGc3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609275"/>
+            </identifier>
+            <status value="stopped"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/c59700b7-7abd-4b5d-9596-90477df43360"/>
+               <display value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-16T14:00:00Z"/>
+                        <end value="2021-02-17T14:20:32Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="0800"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="5"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="5"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="5"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/c59700b7-7abd-4b5d-9596-90477df43360"/>
+      <resource>
+         <Medication>
+            <id value="c59700b7-7abd-4b5d-9596-90477df43360"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AB04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="27413"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="86009"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="135805"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="242120"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615907"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615910"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="865098"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992165"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992169"/>
+               </coding>
+               <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AB04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="27413"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="86009"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="135805"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="242120"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615907"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615910"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="865098"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992165"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992169"/>
+                  </coding>
+                  <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eBWfQiHa1ys0MvxjSQqazMXfgGT45-FR2V527EIelXag3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eBWfQiHa1ys0MvxjSQqazMXfgGT45-FR2V527EIelXag3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336610268"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/5292af77-c190-4707-9d7c-3f3f5f8e9fa4"/>
+               <display value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-17T14:20:32Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Nurse Inpatient, RN"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-17T14:30:00Z"/>
+                     </boundsPeriod>
+                     <frequency value="3"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="0800, 1200, 1700"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+            <priorPrescription>
+               <reference value="MedicationRequest/eNicwsxzgz9r4Avli9JazlksCpB97a8hGGbnEvksfECE3"/>
+               <display value="insulin lispro (HumaLOG) 100 unit/mL injection 3 Units"/>
+            </priorPrescription>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/5292af77-c190-4707-9d7c-3f3f5f8e9fa4"/>
+      <resource>
+         <Medication>
+            <id value="5292af77-c190-4707-9d7c-3f3f5f8e9fa4"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AB04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="27413"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="86009"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="135805"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="242120"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615907"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615910"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="865098"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992165"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992169"/>
+               </coding>
+               <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AB04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="27413"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="86009"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="135805"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="242120"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615907"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615910"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="865098"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992165"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992169"/>
+                  </coding>
+                  <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eEX80hs2MzcrYbX2FvVTSmRwChKGPmSG2SFutZVlw-VA3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eEX80hs2MzcrYbX2FvVTSmRwChKGPmSG2SFutZVlw-VA3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609277"/>
+            </identifier>
+            <status value="stopped"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/50c48d9a-1f5b-42b4-bf9a-1f383c7648cc"/>
+               <display value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-16T00:00:00Z"/>
+                        <end value="2021-02-17T14:20:32Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="1700"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="4"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/50c48d9a-1f5b-42b4-bf9a-1f383c7648cc"/>
+      <resource>
+         <Medication>
+            <id value="50c48d9a-1f5b-42b4-bf9a-1f383c7648cc"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AB04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="27413"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="86009"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="135805"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="242120"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615907"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615910"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="865098"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992165"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992169"/>
+               </coding>
+               <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AB04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="27413"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="86009"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="135805"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="242120"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615907"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615910"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="865098"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992165"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992169"/>
+                  </coding>
+                  <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eIRXVH5TXss0pnxhYYbINyUFQ7mhKUJhVjrspEWfg5AI3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eIRXVH5TXss0pnxhYYbINyUFQ7mhKUJhVjrspEWfg5AI3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609268"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/f67a2f45-6937-48d7-9f2b-f311ed6bc6b1"/>
+               <display value="DEXTROSE 10 % IV BOLUS"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:25Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T16:43:55Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="PRN"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="true"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="11"/>
+                     <display value="Intravenous"/>
+                  </coding>
+                  <text value="Intravenous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="125"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </low>
+                     <high>
+                        <value value="250"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="125"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </low>
+                     <high>
+                        <value value="250"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="125"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </low>
+                     <high>
+                        <value value="250"/>
+                        <unit value="mL"/>
+                        <system value="http://unitsofmeasure.org"/>
+                        <code value="mL"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/f67a2f45-6937-48d7-9f2b-f311ed6bc6b1"/>
+      <resource>
+         <Medication>
+            <id value="f67a2f45-6937-48d7-9f2b-f311ed6bc6b1"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="B05BA03"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="1978"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1795477"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1795478"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1795480"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1795481"/>
+               </coding>
+               <text value="DEXTROSE 10 % IV BOLUS"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="B05BA03"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="1978"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1795477"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1795478"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1795480"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1795481"/>
+                  </coding>
+                  <text value="DEXTROSE 10 % IV BOLUS"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="10"/>
+                  </numerator>
+                  <denominator>
+                     <value value="10"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eNicwsxzgz9r4Avli9JazlksCpB97a8hGGbnEvksfECE3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eNicwsxzgz9r4Avli9JazlksCpB97a8hGGbnEvksfECE3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609276"/>
+            </identifier>
+            <status value="stopped"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/a1da0e69-5e9a-4089-9fc7-34f721f904ea"/>
+               <display value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T18:00:00Z"/>
+                        <end value="2021-02-17T14:20:32Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="1200"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="3"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="3"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="3"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/a1da0e69-5e9a-4089-9fc7-34f721f904ea"/>
+      <resource>
+         <Medication>
+            <id value="a1da0e69-5e9a-4089-9fc7-34f721f904ea"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AB04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="27413"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="86009"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="135805"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="242120"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615907"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="615910"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="865098"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992165"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1992169"/>
+               </coding>
+               <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AB04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="27413"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="86009"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="135805"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="242120"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615907"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="615910"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="865098"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992165"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1992169"/>
+                  </coding>
+                  <text value="INSULIN LISPRO (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eRKL3rS9cTxB7Ii2zxvro4EptpDAEktz41mIli9Yt8Kw3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eRKL3rS9cTxB7Ii2zxvro4EptpDAEktz41mIli9Yt8Kw3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609270"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/25251be9-7275-4e60-9679-5c9c13758084"/>
+               <display value="DEXTROSE 40 % ORAL GEL"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T16:43:55Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="PRN"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="true"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="15"/>
+                        <unit value="g of dextrose"/>
+                     </low>
+                     <high>
+                        <value value="30"/>
+                        <unit value="g of dextrose"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="15"/>
+                        <unit value="g of dextrose"/>
+                     </low>
+                     <high>
+                        <value value="30"/>
+                        <unit value="g of dextrose"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseRange>
+                     <low>
+                        <value value="15"/>
+                        <unit value="g of dextrose"/>
+                     </low>
+                     <high>
+                        <value value="30"/>
+                        <unit value="g of dextrose"/>
+                     </high>
+                  </doseRange>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/25251be9-7275-4e60-9679-5c9c13758084"/>
+      <resource>
+         <Medication>
+            <id value="25251be9-7275-4e60-9679-5c9c13758084"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="V06DC01"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="1781"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="4850"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="92821"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="92972"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="198683"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="211372"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="211373"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="218433"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="607868"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="616103"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1038787"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1298142"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1298147"/>
+               </coding>
+               <text value="DEXTROSE 40 % ORAL GEL"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Gel"/>
+                  <display value="Gel"/>
+               </coding>
+               <text value="Gel"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="V06DC01"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="1781"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="4850"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="92821"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="92972"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="198683"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="211372"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="211373"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="218433"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="607868"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="616103"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1038787"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1298142"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1298147"/>
+                  </coding>
+                  <text value="DEXTROSE 40 % ORAL GEL"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="40"/>
+                     <unit value="%"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="%"/>
+                  </numerator>
+                  <denominator>
+                     <value value="40"/>
+                     <unit value="%"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="%"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eVdXNyNTQIN.M16jnul.ICcixqk-qUoPnxbCScl4a-KE3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eVdXNyNTQIN.M16jnul.ICcixqk-qUoPnxbCScl4a-KE3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609289"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+               <text value="Community"/>
+            </category>
+            <reportedBoolean value="true"/>
+            <medicationReference>
+               <reference value="Medication/3bd84dfa-3497-43b8-8f07-d2c731dd3094"/>
+               <display value="SIMVASTATIN 20 MG TABLET"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-16T15:19:50Z"/>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <text value="Take 20 mg by mouth at bedtime."/>
+               <patientInstruction value="Take 20 mg by mouth at bedtime."/>
+               <timing>
+                  <repeat>
+                     <timeOfDay value="21:00:00"/>
+                  </repeat>
+                  <code>
+                     <text value="2100"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <method>
+                  <text value="Take"/>
+               </method>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="20"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/3bd84dfa-3497-43b8-8f07-d2c731dd3094"/>
+      <resource>
+         <Medication>
+            <id value="3bd84dfa-3497-43b8-8f07-d2c731dd3094"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="C10AA01"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="16578"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="36567"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="104491"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="196503"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="312961"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1944257"/>
+               </coding>
+               <text value="SIMVASTATIN 20 MG TABLET"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Tab"/>
+                  <display value="Tablet"/>
+               </coding>
+               <text value="Tablet"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="C10AA01"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="16578"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="36567"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="104491"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="196503"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="312961"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1944257"/>
+                  </coding>
+                  <text value="SIMVASTATIN 20 MG TABLET"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="20"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </numerator>
+                  <denominator>
+                     <value value="20"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/ebErIaIQnxDX7KH7tEhSCnl0SjDW10cAgTo8u3TwdHJQ3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="ebErIaIQnxDX7KH7tEhSCnl0SjDW10cAgTo8u3TwdHJQ3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609280"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/391fee02-e023-4bfc-91b5-d143e89147ad"/>
+               <display value="ATORVASTATIN 10 MG TABLET"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-16T03:00:00Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="2100"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="10"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1"/>
+                     <unit value="tablet"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="{tbl}"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="10"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/391fee02-e023-4bfc-91b5-d143e89147ad"/>
+      <resource>
+         <Medication>
+            <id value="391fee02-e023-4bfc-91b5-d143e89147ad"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="C10AA05"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="29967"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="83366"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="83367"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="153165"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="617312"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="617314"/>
+               </coding>
+               <text value="ATORVASTATIN 10 MG TABLET"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Tab"/>
+                  <display value="Tablet"/>
+               </coding>
+               <text value="Tablet"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="C10AA05"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="29967"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="83366"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="83367"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="153165"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="617312"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="617314"/>
+                  </coding>
+                  <text value="ATORVASTATIN 10 MG TABLET"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="10"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </numerator>
+                  <denominator>
+                     <value value="10"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/ebeA0BJJefV3S76LtdOBGsHYYAafpQzoHFVTcEFzzK7w3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="ebeA0BJJefV3S76LtdOBGsHYYAafpQzoHFVTcEFzzK7w3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609274"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/2fbef3c1-d6bc-498f-9148-90e45dca8dce"/>
+               <display value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T23:00:00Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="Daily"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="7"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="0.07"/>
+                     <unit value="mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="7"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/2fbef3c1-d6bc-498f-9148-90e45dca8dce"/>
+      <resource>
+         <Medication>
+            <id value="2fbef3c1-d6bc-498f-9148-90e45dca8dce"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AE04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="47780"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="261551"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="274783"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="285018"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="311041"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1736859"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="2377130"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="2377134"/>
+               </coding>
+               <text value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AE04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="47780"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="261551"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="274783"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="285018"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="311041"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1736859"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="2377130"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="2377134"/>
+                  </coding>
+                  <text value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/edx0rA8kLG2IcS0aJzLt14YxfkxkOxbXMDIGHaSeogKE3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="edx0rA8kLG2IcS0aJzLt14YxfkxkOxbXMDIGHaSeogKE3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609279"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/62dac5c7-beef-446f-b2dd-f1f00a5ac0d8"/>
+               <display value="AZITHROMYCIN 500 MG IVPB NS"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T18:00:00Z"/>
+                        <end value="2021-02-22T17:59:00Z"/>
+                     </boundsPeriod>
+                     <duration value="60"/>
+                     <durationUnit value="min"/>
+                     <frequency value="1"/>
+                     <period value="24"/>
+                     <periodUnit value="h"/>
+                  </repeat>
+                  <code>
+                     <text value="Every 24 hours"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="11"/>
+                     <display value="Intravenous"/>
+                  </coding>
+                  <text value="Intravenous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="500"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="500"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="500"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/62dac5c7-beef-446f-b2dd-f1f00a5ac0d8"/>
+      <resource>
+         <Medication>
+            <id value="62dac5c7-beef-446f-b2dd-f1f00a5ac0d8"/>
+            <code>
+               <text value="AZITHROMYCIN 500 MG IVPB NS"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemReference>
+                  <reference value="Medication/evnICqkGPTmX.r8pavMTYjA3"/>
+                  <display value="AZITHROMYCIN 500 MG INTRAVENOUS SOLUTION"/>
+               </itemReference>
+            </ingredient>
+            <ingredient>
+               <itemReference>
+                  <reference value="Medication/ee7TyEW3Au9APCHcOyIdjpg3"/>
+                  <display value="SODIUM CHLORIDE 0.9 % INTRAVENOUS SOLUTION"/>
+               </itemReference>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/ef02wODNsT7tnwCLr9OqnzAqCpDZ5l9brB3m268382gk3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="ef02wODNsT7tnwCLr9OqnzAqCpDZ5l9brB3m268382gk3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609278"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/2bcf87b5-54cc-467e-95af-9586c83f1759"/>
+               <display value="CEFTRIAXONE 40 MG/ML IV SYRINGE"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T18:00:00Z"/>
+                        <end value="2021-02-22T17:59:00Z"/>
+                     </boundsPeriod>
+                     <duration value="30"/>
+                     <durationUnit value="min"/>
+                     <frequency value="1"/>
+                     <period value="24"/>
+                     <periodUnit value="h"/>
+                  </repeat>
+                  <code>
+                     <text value="Every 24 hours"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="11"/>
+                     <display value="Intravenous"/>
+                  </coding>
+                  <text value="Intravenous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1000"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="25"/>
+                     <unit value="mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="1000"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/2bcf87b5-54cc-467e-95af-9586c83f1759"/>
+      <resource>
+         <Medication>
+            <id value="2bcf87b5-54cc-467e-95af-9586c83f1759"/>
+            <code>
+               <text value="CEFTRIAXONE 40 MG/ML IV SYRINGE"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemReference>
+                  <reference value="Medication/e-7gA-vewc8.YvhAFroq1fQ3"/>
+                  <display value="CEFTRIAXONE 10 GRAM SOLUTION FOR INJECTION"/>
+               </itemReference>
+            </ingredient>
+            <ingredient>
+               <itemReference>
+                  <reference value="Medication/eT33vZCiGtrSKawKQWzqCpQ3"/>
+                  <display value="WATER FOR INJECTION, STERILE INTRAVENOUS SOLUTION"/>
+               </itemReference>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/epOvwpVGB9c8GRyaqnZFkj.GFpcyg1RSuohT3gRwTtAM3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="epOvwpVGB9c8GRyaqnZFkj.GFpcyg1RSuohT3gRwTtAM3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609273"/>
+            </identifier>
+            <status value="active"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/c7634aba-aaae-4c59-a5a5-fea351d9e07f"/>
+               <display value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:26Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-16T14:00:00Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="0800"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="18"/>
+                     <display value="Subcutaneous"/>
+                  </coding>
+                  <text value="Subcutaneous"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="10"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="0.1"/>
+                     <unit value="mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mL"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="10"/>
+                     <unit value="Units"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/c7634aba-aaae-4c59-a5a5-fea351d9e07f"/>
+      <resource>
+         <Medication>
+            <id value="c7634aba-aaae-4c59-a5a5-fea351d9e07f"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A10AE04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="47780"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="261551"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="274783"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="285018"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="311041"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1736859"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="2377130"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="2377134"/>
+               </coding>
+               <text value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Soln"/>
+                  <display value="Solution"/>
+               </coding>
+               <text value="Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A10AE04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="47780"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="261551"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="274783"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="285018"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="311041"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1736859"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="2377130"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="2377134"/>
+                  </coding>
+                  <text value="INSULIN GLARGINE (U-100) 100 UNIT/ML SUBCUTANEOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </numerator>
+                  <denominator>
+                     <value value="100"/>
+                     <unit value="unit/mL"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="U/mL"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/epPnTVKhUwus3R0gtDf8ZMWD1fHUMCo.yc9dCDVo8cak3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="epPnTVKhUwus3R0gtDf8ZMWD1fHUMCo.yc9dCDVo8cak3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609281"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="inpatient"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </category>
+            <medicationReference>
+               <reference value="Medication/dc39debd-7280-4a33-a19c-820aeff56f89"/>
+               <display value="PANTOPRAZOLE 20 MG TABLET,DELAYED RELEASE"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-15T16:50:27Z"/>
+            <requester>
+               <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+               <display value="Justin R Birge, MD"/>
+            </requester>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <timing>
+                  <repeat>
+                     <boundsPeriod>
+                        <start value="2021-02-15T18:00:00Z"/>
+                     </boundsPeriod>
+                     <frequency value="1"/>
+                     <period value="1"/>
+                     <periodUnit value="d"/>
+                  </repeat>
+                  <code>
+                     <text value="0800"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="calculated"/>
+                        <display value="calculated"/>
+                     </coding>
+                     <text value="calculated"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="40"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="admin-amount"/>
+                        <display value="admin-amount"/>
+                     </coding>
+                     <text value="admin-amount"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="2"/>
+                     <unit value="tablet"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="{tbl}"/>
+                  </doseQuantity>
+               </doseAndRate>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="40"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/dc39debd-7280-4a33-a19c-820aeff56f89"/>
+      <resource>
+         <Medication>
+            <id value="dc39debd-7280-4a33-a19c-820aeff56f89"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A02BC02"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="39545"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="40790"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="153045"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="251872"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="253191"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="261624"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="352125"/>
+               </coding>
+               <text value="PANTOPRAZOLE 20 MG TABLET,DELAYED RELEASE"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="TbEC"/>
+                  <display value="Tablet, Delayed Release (E.C.)"/>
+               </coding>
+               <text value="Tablet, Delayed Release (E.C.)"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A02BC02"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="39545"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="40790"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="153045"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="251872"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="253191"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="261624"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="352125"/>
+                  </coding>
+                  <text value="PANTOPRAZOLE 20 MG TABLET,DELAYED RELEASE"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="20"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </numerator>
+                  <denominator>
+                     <value value="20"/>
+                     <unit value="MG"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/eqt6MWjYdS7WSEK0aAv0B2vg8DvA4xv6BxeFf1nDRqnA3"/>
+      <resource>
+         <MedicationRequest>
+            <id value="eqt6MWjYdS7WSEK0aAv0B2vg8DvA4xv6BxeFf1nDRqnA3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609290"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+               <text value="Community"/>
+            </category>
+            <reportedBoolean value="true"/>
+            <medicationReference>
+               <reference value="Medication/ab4e0170-0890-428e-bf9d-34c6f140d5b7"/>
+               <display value="OMEPRAZOLE 20 MG CAPSULE,DELAYED RELEASE"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-16T15:19:50Z"/>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <text value="Take 20 mg by mouth 1 (one) time a day."/>
+               <patientInstruction value="Take 20 mg by mouth 1 (one) time a day."/>
+               <timing>
+                  <repeat>
+                     <timeOfDay value="09:00:00"/>
+                  </repeat>
+                  <code>
+                     <text value="0900"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <method>
+                  <text value="Take"/>
+               </method>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="20"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/ab4e0170-0890-428e-bf9d-34c6f140d5b7"/>
+      <resource>
+         <Medication>
+            <id value="ab4e0170-0890-428e-bf9d-34c6f140d5b7"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="A02BC01"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="33530"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="7646"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="104099"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="151993"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="198051"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="203345"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="207212"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="967522"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="967525"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1805430"/>
+               </coding>
+               <text value="OMEPRAZOLE 20 MG CAPSULE,DELAYED RELEASE"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="CpDR"/>
+                  <display value="Capsule, Delayed Release(E.C.)"/>
+               </coding>
+               <text value="Capsule, Delayed Release(E.C.)"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="A02BC01"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="33530"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="7646"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="104099"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="151993"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="198051"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="203345"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="207212"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="967522"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="967525"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1805430"/>
+                  </coding>
+                  <text value="OMEPRAZOLE 20 MG CAPSULE,DELAYED RELEASE"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="20"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </numerator>
+                  <denominator>
+                     <value value="20"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/MedicationRequest/euNi-DUtkK5lRFGHCf1edu5ylOA90JQwatcMu9AkUMm83"/>
+      <resource>
+         <MedicationRequest>
+            <id value="euNi-DUtkK5lRFGHCf1edu5ylOA90JQwatcMu9AkUMm83"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.798268"/>
+               <value value="336609291"/>
+            </identifier>
+            <status value="on-hold"/>
+            <intent value="order"/>
+            <category>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/medicationrequest-category"/>
+                  <code value="community"/>
+                  <display value="Community"/>
+               </coding>
+               <text value="Community"/>
+            </category>
+            <reportedBoolean value="true"/>
+            <medicationReference>
+               <reference value="Medication/b4327b9e-87e7-4fe5-9018-3d28bf94a3cc"/>
+               <display value="OMEGA-3 ACID ETHYL ESTERS 1 GRAM CAPSULE"/>
+            </medicationReference>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <encounter>
+               <reference value="Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+            </encounter>
+            <authoredOn value="2021-02-16T15:19:50Z"/>
+            <recorder>
+               <reference value="Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+               <display value="Brian L Schmer, PharmD"/>
+            </recorder>
+            <dosageInstruction>
+               <text value="Take 2 g by mouth 2 (two) times a day."/>
+               <patientInstruction value="Take 2 g by mouth 2 (two) times a day."/>
+               <timing>
+                  <repeat>
+                     <timeOfDay value="09:00:00"/>
+                     <timeOfDay value="21:00:00"/>
+                  </repeat>
+                  <code>
+                     <text value="0900, 2100"/>
+                  </code>
+               </timing>
+               <asNeededBoolean value="false"/>
+               <route>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.798268.7025"/>
+                     <code value="15"/>
+                     <display value="Oral"/>
+                  </coding>
+                  <text value="Oral"/>
+               </route>
+               <method>
+                  <text value="Take"/>
+               </method>
+               <doseAndRate>
+                  <type>
+                     <coding>
+                        <system value="http://epic.com/CodeSystem/dose-rate-type"/>
+                        <code value="ordered"/>
+                        <display value="ordered"/>
+                     </coding>
+                     <text value="ordered"/>
+                  </type>
+                  <doseQuantity>
+                     <value value="2"/>
+                     <unit value="g"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="g"/>
+                  </doseQuantity>
+               </doseAndRate>
+            </dosageInstruction>
+         </MedicationRequest>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/b4327b9e-87e7-4fe5-9018-3d28bf94a3cc"/>
+      <resource>
+         <Medication>
+            <id value="b4327b9e-87e7-4fe5-9018-3d28bf94a3cc"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="C10AX06"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="58486"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="4301"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="278346"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="484348"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="577208"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="607044"/>
+               </coding>
+               <text value="OMEGA-3 ACID ETHYL ESTERS 1 GRAM CAPSULE"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="Cap"/>
+                  <display value="Capsule"/>
+               </coding>
+               <text value="Capsule"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="C10AX06"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="58486"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="4301"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="278346"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="484348"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="577208"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="607044"/>
+                  </coding>
+                  <text value="OMEGA-3 ACID ETHYL ESTERS 1 GRAM CAPSULE"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="1"/>
+                     <unit value="gram"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="g"/>
+                  </numerator>
+                  <denominator>
+                     <value value="1"/>
+                     <unit value="gram"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="g"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Encounter/eu7veSphi42r8s0SQqlgOSg3"/>
+      <resource>
+         <Encounter>
+            <id value="eu7veSphi42r8s0SQqlgOSg3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.3.698084.8"/>
+               <value value="280692"/>
+            </identifier>
+            <status value="in-progress"/>
+            <class>
+               <system value="urn:oid:1.2.840.114350.1.72.1.7.7.10.696784.13260"/>
+               <code value="3"/>
+               <display value="Admission"/>
+            </class>
+            <type>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.10.698084.10110"/>
+                  <code value="101"/>
+                  <display value="Inpatient"/>
+               </coding>
+               <text value="Inpatient"/>
+            </type>
+            <type>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.10.698084.30"/>
+                  <code value="3"/>
+                  <display value="Hospital Encounter"/>
+               </coding>
+               <text value="Hospital Encounter"/>
+            </type>
+            <subject>
+               <reference value="Patient/ex-X6gnRDv-NtAaxiobgGXlH8QPXXQA-yggglK9rPpK03"/>
+               <display value="Lantanatrial, Charles"/>
+            </subject>
+            <participant>
+               <type>
+                  <coding>
+                     <system value="http://hl7.org/fhir/v3/ParticipationType"/>
+                     <code value="ADM"/>
+                     <display value="admitter"/>
+                  </coding>
+                  <text value="admitter"/>
+               </type>
+               <individual>
+                  <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+                  <display value="Andjela T Drincic, MD"/>
+               </individual>
+            </participant>
+            <participant>
+               <type>
+                  <coding>
+                     <system value="http://hl7.org/fhir/v3/ParticipationType"/>
+                     <code value="ATND"/>
+                     <display value="attender"/>
+                  </coding>
+                  <text value="attender"/>
+               </type>
+               <period>
+                  <start value="2021-02-15T14:26:00Z"/>
+               </period>
+               <individual>
+                  <reference value="Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+                  <display value="Justin R Birge, MD"/>
+               </individual>
+            </participant>
+            <period>
+               <start value="2021-02-15T14:26:00Z"/>
+            </period>
+            <location>
+               <location>
+                  <reference value="Location/etpYbKCaAZMlVgknNaYjxCes.44IePRhbYqnCNHzUi6c3"/>
+                  <display value="9CNW-9TH FLOOR CLARKSON TOWER NORTHWEST"/>
+               </location>
+               <period>
+                  <start value="2021-02-15T14:26:00Z"/>
+               </period>
+            </location>
+         </Encounter>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/evnICqkGPTmX.r8pavMTYjA3"/>
+      <resource>
+         <Medication>
+            <id value="evnICqkGPTmX.r8pavMTYjA3"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="J01FA10"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="31452"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="18631"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="196474"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="539819"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="598022"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="628527"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="706869"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1668238"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1668240"/>
+               </coding>
+               <text value="AZITHROMYCIN 500 MG INTRAVENOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="SolR"/>
+                  <display value="Recon Soln"/>
+               </coding>
+               <text value="Recon Soln"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="J01FA10"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="31452"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="18631"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="196474"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="539819"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="598022"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="628527"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="706869"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1668238"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1668240"/>
+                  </coding>
+                  <text value="AZITHROMYCIN 500 MG INTRAVENOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="500"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </numerator>
+                  <denominator>
+                     <value value="500"/>
+                     <unit value="mg"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="mg"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/ee7TyEW3Au9APCHcOyIdjpg3"/>
+      <resource>
+         <Medication>
+            <id value="ee7TyEW3Au9APCHcOyIdjpg3"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="B05XA03"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="1210"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807627"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807628"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807630"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807631"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807632"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807633"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807634"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="1807639"/>
+               </coding>
+               <text value="SODIUM CHLORIDE 0.9 % INTRAVENOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="SolP"/>
+                  <display value="Parenteral Solution"/>
+               </coding>
+               <text value="Parenteral Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="B05XA03"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="1210"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807627"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807628"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807630"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807631"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807632"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807633"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807634"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="1807639"/>
+                  </coding>
+                  <text value="SODIUM CHLORIDE 0.9 % INTRAVENOUS SOLUTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="0.9"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="%"/>
+                  </numerator>
+                  <denominator>
+                     <value value="0.9"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="%"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/e-7gA-vewc8.YvhAFroq1fQ3"/>
+      <resource>
+         <Medication>
+            <id value="e-7gA-vewc8.YvhAFroq1fQ3"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="J01DD04"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="9163"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="2193"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="9449"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="203172"/>
+               </coding>
+               <coding>
+                  <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                  <code value="309090"/>
+               </coding>
+               <text value="CEFTRIAXONE 10 GRAM SOLUTION FOR INJECTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="SolR"/>
+                  <display value="Recon Soln"/>
+               </coding>
+               <text value="Recon Soln"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="J01DD04"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="9163"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="2193"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="9449"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="203172"/>
+                  </coding>
+                  <coding>
+                     <system value="http://www.nlm.nih.gov/research/umls/rxnorm"/>
+                     <code value="309090"/>
+                  </coding>
+                  <text value="CEFTRIAXONE 10 GRAM SOLUTION FOR INJECTION"/>
+               </itemCodeableConcept>
+               <strength>
+                  <numerator>
+                     <value value="10"/>
+                     <unit value="gram"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="g"/>
+                  </numerator>
+                  <denominator>
+                     <value value="10"/>
+                     <unit value="gram"/>
+                     <system value="http://unitsofmeasure.org"/>
+                     <code value="g"/>
+                  </denominator>
+               </strength>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Medication/eT33vZCiGtrSKawKQWzqCpQ3"/>
+      <resource>
+         <Medication>
+            <id value="eT33vZCiGtrSKawKQWzqCpQ3"/>
+            <code>
+               <coding>
+                  <system value="http://www.whocc.no/atc"/>
+                  <code value="V07AB"/>
+               </coding>
+               <coding>
+                  <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                  <code value="1166"/>
+               </coding>
+               <text value="WATER FOR INJECTION, STERILE INTRAVENOUS SOLUTION"/>
+            </code>
+            <form>
+               <coding>
+                  <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.698288.310"/>
+                  <code value="SolP"/>
+                  <display value="Parenteral Solution"/>
+               </coding>
+               <text value="Parenteral Solution"/>
+            </form>
+            <ingredient>
+               <itemCodeableConcept>
+                  <coding>
+                     <system value="http://www.whocc.no/atc"/>
+                     <code value="V07AB"/>
+                  </coding>
+                  <coding>
+                     <system value="urn:oid:2.16.840.1.113883.6.208"/>
+                     <code value="1166"/>
+                  </coding>
+                  <text value="WATER FOR INJECTION, STERILE INTRAVENOUS SOLUTION"/>
+               </itemCodeableConcept>
+            </ingredient>
+         </Medication>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Organization/eL8jalKweJidgkhSjf-wvog3"/>
+      <resource>
+         <Organization>
+            <id value="eL8jalKweJidgkhSjf-wvog3"/>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.5.737384.61"/>
+               <value value="1356307581"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.5.737384.73"/>
+               <value value="282N00000X"/>
+            </identifier>
+            <active value="true"/>
+            <name value="Nebraska Medicine"/>
+            <address>
+               <line value="987400 Nebraska Medical Center"/>
+               <city value="OMAHA"/>
+               <state value="Nebraska"/>
+               <postalCode value="68198-7400"/>
+               <country value="United States of America"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Practitioner/ejGwdFhqg0AasCfx7NXLO5Q3"/>
+      <resource>
+         <Practitioner>
+            <id value="ejGwdFhqg0AasCfx7NXLO5Q3"/>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.697780"/>
+               <value value="    147"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.697780"/>
+               <value value="147"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EPIC"/>
+               </type>
+               <system value="PROVID"/>
+               <value value="32496"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.836982"/>
+               <value value="   32496"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.836982"/>
+               <value value="32496"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <use value="usual"/>
+               <text value="Brian L Schmer, PharmD"/>
+               <family value="Schmer"/>
+               <given value="Brian"/>
+               <given value="L"/>
+            </name>
+            <gender value="male"/>
+            <photo>
+               <url value="https://ocsoapprd.nebraskamed.com/BedsideBlob/BedsidePhoto.aspx?id=32496"/>
+            </photo>
+            <qualification>
+               <code>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.836982.6000"/>
+                     <code value="390"/>
+                     <display value="PharmD"/>
+                  </coding>
+                  <text value="PharmD"/>
+               </code>
+            </qualification>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Practitioner/eDeha5d5ej9tD88m0aY6t5w3"/>
+      <resource>
+         <Practitioner>
+            <id value="eDeha5d5ej9tD88m0aY6t5w3"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2021-02-18T17:45:40.809+00:00"/>
+            </meta>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.697780"/>
+               <value value="   IPRN"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.697780"/>
+               <value value="IPRN"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="INTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.836982"/>
+               <value value=" E400001"/>
+            </identifier>
+            <identifier>
+               <use value="usual"/>
+               <type>
+                  <text value="EXTERNAL"/>
+               </type>
+               <system value="urn:oid:1.2.840.114350.1.13.310.3.7.2.836982"/>
+               <value value="E400001"/>
+            </identifier>
+            <active value="true"/>
+            <name>
+               <use value="usual"/>
+               <text value="Inpatient Nurse, RN"/>
+               <family value="Inpatient"/>
+               <given value="Nurse"/>
+            </name>
+            <qualification>
+               <code>
+                  <coding>
+                     <system value="urn:oid:1.2.840.114350.1.13.310.3.7.4.836982.6000"/>
+                     <code value="1"/>
+                     <display value="RN"/>
+                  </coding>
+                  <text value="RN"/>
+               </code>
+            </qualification>
+         </Practitioner>
+      </resource>
+   </entry>
+   <entry xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <fullUrl value="https://ocsoaptest.nebraskamed.com/FHIR-TST/api/FHIR/R4/Location/etpYbKCaAZMlVgknNaYjxCes.44IePRhbYqnCNHzUi6c3"/>
+      <resource>
+         <Location>
+            <id value="etpYbKCaAZMlVgknNaYjxCes.44IePRhbYqnCNHzUi6c3"/>
+            <name value="9CNW-9TH FLOOR CLARKSON TOWER NORTHWEST"/>
+         </Location>
+      </resource>
+   </entry>
+</Bundle>

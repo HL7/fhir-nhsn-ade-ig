@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ImplementationGuide
     xmlns="http://hl7.org/fhir">
-    <id value="hl7-fhir-us-ade-hypo"/>
+    <id value="hl7-fhir-us-nhsn-ade"/>
     <meta>
-        <versionId value="33"/>
-        <lastUpdated value="2021-01-14T05:45:13.723+00:00"/>
-        <source value="#H9XbdUI4xLbVMVKD"/>
+        <versionId value="7"/>
+        <lastUpdated value="2021-03-30T01:33:37.338+00:00"/>
+        <source value="#Br6pMpnFbeF15fMj"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ade-hypo/ImplementationGuide/hl7-fhir-us-ade-hypo"/>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade"/>
     <version value="0.1.0"/>
     <name value="AdverseDrugEventHypoglycemia"/>
     <title value="NHSN Reporting: Adverse Drug Events - Hypoglycemia"/>
@@ -29,7 +29,7 @@
         </coding>
         <text value="United States of America"/>
     </jurisdiction>
-    <packageId value="hl7.fhir.us.ade-hypo"/>
+    <packageId value="hl7.fhir.us.nhsn-ade"/>
     <fhirVersion value="4.0.1"/>
     <dependsOn id="hl7fhiruscore">
         <uri value="http://hl7.org/fhir/us/core/ImplementationGuide/hl7.fhir.us.core#3.1.1"/>
@@ -59,7 +59,7 @@
             <name value="Composition - ADE Hypoglycemia [Harry Hypoglycemic]"/>
             <description value="Example of Composition-ade-hypoglycemia profile (Harry Hypoglycemic)"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
         </resource>
         <resource>
             <reference>
@@ -69,23 +69,7 @@
             <name value="Composition - ADE Hypoglycemia [Name 'masked']"/>
             <description value="Example of Composition-ade-hypoglycemia profile (Name 'masked')"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="MedicationAdministration/medicationadministration-metformin-er"/></reference>
-            <name value="MedicationAdministration Antidiabetics [Metformin ER - Name 'masked']"/>
-            <description value="Example of MedicationAdministration-Antidiabetics profile (Name 'masked')"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
-        </resource>
-        <resource>
-            <reference>
-                <reference value="MedicationAdministration/medicationadministration-metformin-example"/></reference>
-            <name value="MedicationAdministration Antidiabetics [Metformin - Harry Hypoglycemic]"/>
-            <description value="Example of MedicationAdministration-Antidiabetics profile (Harry Hypoglycemic)"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
         </resource>
         <resource>
             <reference>
@@ -98,11 +82,19 @@
         </resource>
         <resource>
             <reference>
-                <reference value="Observation/observation-lab-ade"/></reference>
-            <name value="Observation Lab ADE [Glucose - 1 hr post meal - Name 'masked']"/>
-            <description value="Example of Observation-lab-blood-glucose profile (Name 'masked')"/>
+                <reference value="MedicationAdministration/medicationadministration-metformin-example"/></reference>
+            <name value="MedicationAdministration Antidiabetics [Metformin - Harry Hypoglycemic]"/>
+            <description value="Example of MedicationAdministration-Antidiabetics profile (Harry Hypoglycemic)"/>
             <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="MedicationAdministration/medicationadministration-metformin-er"/></reference>
+            <name value="MedicationAdministration Antidiabetics [Metformin ER - Name 'masked']"/>
+            <description value="Example of MedicationAdministration-Antidiabetics profile (Name 'masked')"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
         </resource>
         <resource>
             <reference>
@@ -112,6 +104,22 @@
             <name value="Observation - Laboratory Blood Glucose"/>
             <description value="This profile reprsents a blood glucose lab test"/>
             <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-lab-ade"/></reference>
+            <name value="Observation Lab ADE [Glucose - 1 hr post meal - Name 'masked']"/>
+            <description value="Example of Observation-lab-blood-glucose profile (Name 'masked')"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Observation/observation-lab-ade-hh"/></reference>
+            <name value="Observation Lab Blood Gluclose [Harry Hypoglycemia]"/>
+            <description value="Example of Observation-lab-blood-glucose profile [Fasting glucose [Mass/volume] in Capillary blood - Harry Hypoglycemia]"/>
+            <exampleBoolean value="false"/>
+            <exampleCanonical value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
         </resource>
         <resource>
             <reference>
@@ -191,18 +199,15 @@
             <description value="Example of us-core-practitioner profile (Ed Endocrinols)"/>
             <exampleBoolean value="true"/>
         </resource>
-        <resource>
-            <reference>
-                <reference value="Observation/observation-lab-ade-hh"/></reference>
-            <name value="Observation Lab Blood Gluclose [Harry Hypoglycemia]"/>
-            <description value="Example of Observation-lab-blood-glucose profile [Fasting glucose [Mass/volume] in Capillary blood - Harry Hypoglycemia]"/>
-            <exampleBoolean value="false"/>
-            <exampleCanonical value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
-        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
             <generation value="markdown"/>
+            <page>
+                <nameUrl value="downloads.html"/>
+                <title value="Downloads"/>
+                <generation value="markdown"/>
+            </page>
         </page>
         <parameter>
             <code value="copyrightyear"/>

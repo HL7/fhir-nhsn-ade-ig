@@ -7,7 +7,7 @@
         <lastUpdated value="2021-01-13T08:44:53.563+00:00"/>
         <source value="#9wN7PB2HMkM2IlzY"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
     <version value="0.1.0"/>
     <name value="ObservationLabBloodGlucose"/>
     <title value="Observation Laboratory Blood Glucose"/>

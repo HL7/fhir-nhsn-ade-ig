@@ -7,7 +7,7 @@
         <lastUpdated value="2021-01-14T06:10:49.464+00:00"/>
         <source value="#EOfU2rw4Dk5VmCNr"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Composition-ade-hypoglycemia"/>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
     <name value="CompositionAdeHypoglycemia"/>
     <title value="Composition - ADE Hypoglycemia"/>
@@ -3179,7 +3179,7 @@
             </base>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
             </type>
             <condition value="cmp-2"/>
             <mustSupport value="true"/>
@@ -3667,7 +3667,7 @@
             </base>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
             </type>
             <condition value="cmp-2"/>
             <mustSupport value="true"/>
@@ -3972,7 +3972,7 @@
             <min value="1"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/Observation-lab-blood-glucose"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
             </type>
             <mustSupport value="true"/>
         </element>
@@ -4022,7 +4022,7 @@
             <sliceName value="medicationAdministrationAntidiabetics"/>
             <type>
                 <code value="Reference"/>
-                <targetProfile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
             </type>
             <mustSupport value="true"/>
         </element>
