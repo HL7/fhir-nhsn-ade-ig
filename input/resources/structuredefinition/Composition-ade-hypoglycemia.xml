@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hypoglycemia"/>
     <meta>
-        <versionId value="30"/>
-        <lastUpdated value="2021-01-14T06:10:49.464+00:00"/>
-        <source value="#EOfU2rw4Dk5VmCNr"/>
+        <versionId value="32"/>
+        <lastUpdated value="2021-03-30T02:15:26.725+00:00"/>
+        <source value="#Wf2J41c44EASY6FK"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
     <version value="1.0.0"/>
@@ -2164,7 +2164,7 @@
             <short value="A reference to data that supports this section"/>
             <definition value="A reference to the actual resource from which the narrative in the section is derived."/>
             <comment value="If there are no entries in the list, an emptyReason SHOULD be provided."/>
-            <min value="0"/>
+            <min value="1"/>
             <max value="*"/>
             <base>
                 <path value="Composition.section.entry"/>
@@ -2682,7 +2682,7 @@
             <short value="A reference to data that supports this section"/>
             <definition value="A reference to the actual resource from which the narrative in the section is derived."/>
             <comment value="If there are no entries in the list, an emptyReason SHOULD be provided."/>
-            <min value="0"/>
+            <min value="1"/>
             <max value="*"/>
             <base>
                 <path value="Composition.section.entry"/>
@@ -3628,7 +3628,7 @@
             <short value="A reference to data that supports this section"/>
             <definition value="A reference to the actual resource from which the narrative in the section is derived."/>
             <comment value="If there are no entries in the list, an emptyReason SHOULD be provided."/>
-            <min value="0"/>
+            <min value="1"/>
             <max value="*"/>
             <base>
                 <path value="Composition.section.entry"/>
@@ -3863,6 +3863,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemSection.entry:USCoreCondition">
@@ -3918,6 +3919,7 @@
         <element id="Composition.section:procedureSection.entry:USCoreProcedure">
             <path value="Composition.section.entry"/>
             <sliceName value="USCoreProcedure"/>
+            <min value="1"/>
             <type>
                 <code value="Reference"/>
                 <targetProfile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"/>
@@ -4015,6 +4017,7 @@
                 </discriminator>
                 <rules value="open"/>
             </slicing>
+            <min value="1"/>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:medicationSection.entry:medicationAdministrationAntidiabetics">

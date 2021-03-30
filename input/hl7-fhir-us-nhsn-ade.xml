@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-nhsn-ade"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2021-03-30T01:33:37.338+00:00"/>
-        <source value="#Br6pMpnFbeF15fMj"/>
+        <versionId value="10"/>
+        <lastUpdated value="2021-03-30T01:44:02.446+00:00"/>
+        <source value="#C5Gc9Ck8tq5SILHs"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade"/>
     <version value="0.1.0"/>
@@ -197,6 +197,13 @@
                 <reference value="Practitioner/practitioner-ed-endocrinols-example"/></reference>
             <name value="US Core Practitioner [Ed Endocrinols]"/>
             <description value="Example of us-core-practitioner profile (Ed Endocrinols)"/>
+            <exampleBoolean value="true"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="Bundle/bundle-document-ade"/></reference>
+            <name value="Bundle - ADE Hypoglycemia example"/>
+            <description value="Example of an ADE Hypoglycemia Bundle"/>
             <exampleBoolean value="true"/>
         </resource>
         <page>

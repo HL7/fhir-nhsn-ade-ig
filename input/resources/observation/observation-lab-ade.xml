@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="observation-lab-ade"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-01-14T06:00:46.180+00:00"/>
-        <source value="#qh3MOq82GoXBcwQA"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-03-30T02:19:48.239+00:00"/>
+        <source value="#0hyobM3dj9lVwoPm"/>
         <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose"/>
     </meta>
     <status value="final"/>

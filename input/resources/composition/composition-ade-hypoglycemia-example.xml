@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="composition-ade-hypoglycemia-example"/>
     <meta>
-        <versionId value="7"/>
-        <lastUpdated value="2021-01-14T05:16:11.050+00:00"/>
-        <source value="#SDsVA7GwEvIR4FFa"/>
+        <versionId value="8"/>
+        <lastUpdated value="2021-03-30T01:37:24.450+00:00"/>
+        <source value="#lwoI0OgIeAoj7r0g"/>
         <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
     </meta>
     <status value="final"/>

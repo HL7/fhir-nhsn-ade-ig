@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="medicationadministration-metformin-er"/>
     <meta>
-        <versionId value="3"/>
-        <lastUpdated value="2021-01-14T05:46:36.358+00:00"/>
-        <source value="#HrVdepSCVPoGMMHl"/>
+        <versionId value="4"/>
+        <lastUpdated value="2021-03-30T01:37:24.451+00:00"/>
+        <source value="#t2FnpwH0BmpwZidT"/>
         <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
     </meta>
     <status value="completed"/>
