@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-nhsn-ade"/>
     <meta>
-        <versionId value="15"/>
-        <lastUpdated value="2021-03-30T22:36:38.974+00:00"/>
-        <source value="#xpKTxH3lIgoWdxkJ"/>
+        <versionId value="16"/>
+        <lastUpdated value="2021-03-30T23:05:45.715+00:00"/>
+        <source value="#oYKoosYcEykopTHX"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade"/>
     <version value="0.1.0"/>
