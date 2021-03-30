@@ -390,4 +390,47 @@
          </Practitioner>
       </resource>
    </entry>
+   <entry>
+      <fullUrl value="http://example.org/fhir/Organization/organization-hospital-physician-group-example"></fullUrl>
+      <resource>
+         <Organization
+            xmlns="http://hl7.org/fhir">
+            <id value="organization-hospital-physician-group-example"/>
+            <meta>
+               <versionId value="1"/>
+               <lastUpdated value="2020-12-24T15:44:43.706+00:00"/>
+               <source value="#QNqacR8YkaVwX6t3"/>
+               <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"/>
+            </meta>
+            <identifier>
+               <system value="http://hl7.org.fhir/sid/us-npi"/>
+               <value value="1144221847"/>
+            </identifier>
+            <active value="true"/>
+            <type>
+               <coding>
+                  <system value="http://terminology.hl7.org/CodeSystem/organization-type"/>
+                  <code value="prov"/>
+                  <display value="Healthcare Provider"/>
+               </coding>
+            </type>
+            <name value="Hospitalists of the World"/>
+            <telecom>
+               <system value="phone"/>
+               <value value="(+1) 734-677-7777"/>
+            </telecom>
+            <telecom>
+               <system value="email"/>
+               <value value="hq@hotw.org"/>
+            </telecom>
+            <address>
+               <line value="111 Any St."/>
+               <city value="Denver"/>
+               <state value="CO"/>
+               <postalCode value="80204"/>
+               <country value="USA"/>
+            </address>
+         </Organization>
+      </resource>
+   </entry>
 </Bundle>
