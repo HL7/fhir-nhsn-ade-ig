@@ -92,7 +92,7 @@
                <versionId value="2" />
                <lastUpdated value="2021-01-14T05:46:36.398+00:00" />
                <source value="#9DA5wo4YZ8MCCJ6f" />
-               <profile value="http://hl7.org/fhir/us/ade-hypo/StructureDefinition/MedicationAdministration-Antidiabetics" />
+               <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics" />
             </meta>
             <status value="completed" />
             <medicationCodeableConcept>
