@@ -229,5 +229,9 @@
             <code value="releaselabel"/>
             <value value="CI Build"/>
         </parameter>
+        <parameter>
+            <code value="path-expansion-params"/>
+            <value value="expansion-parameters-ade.xml"/>
+        </parameter>
     </definition>
 </ImplementationGuide>
