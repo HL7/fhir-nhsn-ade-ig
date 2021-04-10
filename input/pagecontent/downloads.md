@@ -1,3 +1,16 @@
 [Previous Page - Background](background.html)
 
-**Full Implementation Guide**\n\nThe entire implementation guide (including the HTML files, definitions, validation information, etc.) may be downloaded [here](full-ig.zip).\n\nIn addition there are format specific definitions files.\n\n* [XML](definitions.xml.zip)\n* [JSON](definitions.json.zip)\n* [TTL](definitions.ttl.zip)\n\n**Examples:** all the examples that are used in this Implementation Guide available for download:\n\n* [XML](examples.xml.zip)\n* [JSON](examples.json.zip)\n* [TTl](examples.ttl.zip)
+**Full Implementation Guide**
+
+The entire implementation guide (including the HTML files, definitions, validation information, etc.) may be downloaded [here](full-ig.zip).
+
+In addition there are format specific definitions files.
+
+* [XML](definitions.xml.zip)\n* [JSON](definitions.json.zip)
+* [TTL](definitions.ttl.zip)
+ 
+**Examples:** all the examples that are used in this Implementation Guide available for download:
+
+* [XML](examples.xml.zip)
+* [JSON](examples.json.zip)
+* [TTl](examples.ttl.zip)

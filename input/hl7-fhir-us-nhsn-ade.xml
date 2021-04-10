@@ -102,7 +102,7 @@
                 <display value="Observation Laboratory Blood Glucose"/>
             </reference>
             <name value="Observation - Laboratory Blood Glucose"/>
-            <description value="This profile reprsents a blood glucose lab test"/>
+            <description value="This profile represents a blood glucose lab test"/>
             <exampleBoolean value="false"/>
         </resource>
         <resource>

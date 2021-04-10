@@ -13,7 +13,7 @@
     <title value="Observation Laboratory Blood Glucose"/>
     <status value="active"/>
     <experimental value="false"/>
-    <description value="This profile reprsents a blood glucose lab test"/>
+    <description value="This profile represents a blood glucose lab test"/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
