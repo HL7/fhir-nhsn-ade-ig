@@ -1,4 +1,10 @@
 == Suppressed Messages ==
+# Value set is in VSAC but hasn't been downloaded to FHIR IG package yet (see Zulip thread: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/VSAC.20Package)
+WARNING: Bundle/bundle-document-ade: resource.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: Observation/observation-lab-ade: Observation.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: Observation/observation-lab-ade-hh: Observation.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: StructureDefinition/Observation-lab-blood-glucose: StructureDefinition.differential.element[1].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 on element Observation.code could not be resolved
+WARNING: StructureDefinition/Observation-lab-blood-glucose: StructureDefinition.snapshot.element[15].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 on element Observation.code could not be resolved
 # Suppress informational messages
 INFORMATION: ImplementationGuide/hl7.fhir.us.nhsn-ade: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
 INFORMATION: Bundle/bundle-document-ade: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
