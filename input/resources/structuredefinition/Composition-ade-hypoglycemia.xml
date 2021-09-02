@@ -33,6 +33,11 @@
         <element id="Composition">
             <path value="Composition"/>
         </element>
+        <element id="Composition.identifier">
+            <path value="Composition.identifier"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Composition.type">
             <path value="Composition.type"/>
             <short value="Adverse event note"/>
