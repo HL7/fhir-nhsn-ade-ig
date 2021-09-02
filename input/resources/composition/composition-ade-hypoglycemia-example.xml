@@ -9,6 +9,9 @@
         <profile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
     </meta>
     <status value="final"/>
+    <identifier>
+        <value value="2eec4326-bf29-4428-8d02-a334a19cfc17"/>
+    </identifier>
     <type>
         <coding>
             <system value="http://loinc.org"/>
