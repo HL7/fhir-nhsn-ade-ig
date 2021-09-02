@@ -2,7 +2,7 @@
 	"list": [
 		{
 			"version": "current",
-			"path": "http://build.fhir.org/ig/HL7/fhir-nhsn-ade-ig",
+			"path": "http://build.fhir.org/ig/HL7/nhsn-ade",
 			"desc": "Continuous Integration Build (latest in version control)",
 			"fhirversion": "4.0.1",
 			"date": "",
@@ -12,8 +12,8 @@
 		},
 		{
 			"version": "0.1.0",
-			"desc": "STU 1 Ballot",
-			"path": "http://hl7.org/fhir/us/nhsn-ade/2021May",
+			"desc": "Ballot for FHIR STU Release 1",
+			"path": "http://hl7.org/fhir/us/nhsn-ade",
 			"fhirversion": "4.0.1",
 			"date": "2021-03-30",
 			"sequence": "STU 1 on FHIR R4",
@@ -23,7 +23,5 @@
 	"package-id": "hl7.fhir.us.nhsn-ade",
 	"title": "NHSN Reporting of Adverse Drug Events - Hypoglycemia",
 	"canonical": "http://hl7.org/fhir/us/nhsn-ade",
-	"category": "Public Health",
-	"introduction": "US Realm IG providing guidance to implementers on reporting data elements to CDC National Healthcare Safety Network (NHSN) related to inpatient blood glucose laboratory (including point-of-care) results and medication administration data (medications received during inpatient stay) based on FHIR resources. This IG addresses how inpatient EHR systems should format patient, blood glucose, and medication information to enable hospital reporting of these data to NHSN.  Query parameters are defined for each type of data element based on FHIR resources."
-			
+	"category": "Public Health"
 }

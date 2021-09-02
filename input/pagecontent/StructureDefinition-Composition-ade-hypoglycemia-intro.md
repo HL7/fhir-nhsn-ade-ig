@@ -1,0 +1,1 @@
+This Composition contains all conditions, procedures, results, and medications relevant to and generated during the encounter.
