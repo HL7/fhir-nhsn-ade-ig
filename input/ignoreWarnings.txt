@@ -1,1 +1,62 @@
 == Suppressed Messages ==
+# Value set is in VSAC but hasn't been downloaded to FHIR IG package yet (see Zulip thread: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/VSAC.20Package)
+WARNING: Observation/observation-lab-ade: Observation.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: Observation/observation-lab-ade-hh: Observation.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: Bundle/bundle-document-ade: Bundle.entry[2].resource.code: ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+WARNING: StructureDefinition/Observation-lab-blood-glucose: StructureDefinition.differential.element[1].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 on element Observation.code could not be resolved
+WARNING: StructureDefinition/Observation-lab-blood-glucose: StructureDefinition.snapshot.element[15].binding: The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 on element Observation.code could not be resolved
+# Suppress informational messages
+INFORMATION: ImplementationGuide/hl7.fhir.us.nhsn-ade: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+INFORMATION: Bundle/bundle-document-ade: Bundle: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Bundle
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Composition
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[0].resource.ofType(Composition): Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[1].resource.ofType(MedicationAdministration): Validate resource against profile http://hl7.org/fhir/StructureDefinition/MedicationAdministration
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[1].resource.ofType(MedicationAdministration): Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics - listed in meta
+INFORMATION: Bundle/bundle-document-ade: resource.medication.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[2].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Observation
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[2].resource.ofType(Observation): Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[3].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[3].resource.ofType(Patient): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[4].resource.ofType(Encounter): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[4].resource.ofType(Encounter): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[5].resource.ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[5].resource.ofType(Practitioner): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[5].resource.ofType(Practitioner).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[6].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[6].resource.ofType(Organization): Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Bundle/bundle-document-ade: Bundle.entry[6].resource.ofType(Organization).identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+INFORMATION: Composition/composition-ade-hypoglycemia-example: Composition: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia
+INFORMATION: Composition/composition-ade-hypoglycemia-example-2: Composition: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia
+INFORMATION: Condition/condition-diabetes-ade: Condition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Condition
+INFORMATION: Condition/condition-diabetes-ade: Condition: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition - listed in meta
+INFORMATION: Encounter/encounter-completed-inpatient-ade-1: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+INFORMATION: Encounter/encounter-completed-inpatient-ade-1: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
+INFORMATION: Encounter/encounter-inpatient-example: Encounter: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Encounter
+INFORMATION: Encounter/encounter-inpatient-example: Encounter: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-encounter - listed in meta
+INFORMATION: Location/location-salem-medical-center-ade: Location: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Location
+INFORMATION: Location/location-salem-medical-center-ade: Location: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-location - listed in meta
+INFORMATION: MedicationAdministration/medicationadministration-metformin-er: MedicationAdministration: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+INFORMATION: MedicationAdministration/medicationadministration-metformin-er: MedicationAdministration.medication.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+INFORMATION: MedicationAdministration/medicationadministration-metformin-example: MedicationAdministration: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+INFORMATION: MedicationAdministration/medicationadministration-metformin-example: MedicationAdministration.medication.ofType(CodeableConcept).coding[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+INFORMATION: Observation/observation-lab-ade: Observation: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose
+INFORMATION: Observation/observation-lab-ade-hh: Observation: Validate resource against profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-lab-blood-glucose
+INFORMATION: Organization/organization-acme-laboratory-ade: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Organization/organization-acme-laboratory-ade: Organization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Organization/organization-acme-laboratory-ade: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+INFORMATION: Organization/organization-hospital-physician-group-example: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Organization/organization-hospital-physician-group-example: Organization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Organization/organization-hospital-physician-group-example: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+INFORMATION: Organization/organization-salem-medical-center-ade: Organization: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Organization
+INFORMATION: Organization/organization-salem-medical-center-ade: Organization: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization - listed in meta
+INFORMATION: Organization/organization-salem-medical-center-ade: Organization.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+INFORMATION: Patient/patient-ade-1: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+INFORMATION: Patient/patient-ade-1: Patient: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+INFORMATION: Patient/patient-harry-hypoglycemic-example: Patient: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Patient
+INFORMATION: Patient/patient-harry-hypoglycemic-example: Patient: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient - listed in meta
+INFORMATION: Practitioner/practitioner-ed-endocrinols-example: Practitioner: Validate resource against profile http://hl7.org/fhir/StructureDefinition/Practitioner
+INFORMATION: Practitioner/practitioner-ed-endocrinols-example: Practitioner: Validate resource against profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner - listed in meta
+INFORMATION: Practitioner/practitioner-ed-endocrinols-example: Practitioner.identifier[0]: This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
+INFORMATION: StructureDefinition/Composition-ade-hypoglycemia: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/MedicationAdministration-Antidiabetics: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+INFORMATION: StructureDefinition/Observation-lab-blood-glucose: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
