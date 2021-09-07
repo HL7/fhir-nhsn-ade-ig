@@ -1,1 +1,1 @@
-This Composition contains all conditions, procedures, results, and medications relevant to and generated during the encounter.
+The data reported in this Composition should be primarily based on linked eMAR (antidiabetic medication administration) and laboratory (blood glucose) data, however, it should contain all conditions, procedures, results, and medications relevant to and generated during the encounter.
