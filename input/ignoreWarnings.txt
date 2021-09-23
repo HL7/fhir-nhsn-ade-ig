@@ -1,3 +1,9 @@
 == Suppressed Messages ==
 # Value set is in VSAC but hasn't been downloaded to FHIR IG package yet (see Zulip thread: https://chat.fhir.org/#narrow/stream/179252-IG-creation/topic/VSAC.20Package)
-# Suppress informational messages
+ValueSet http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 not found by validator
+The valueSet reference http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113762.1.4.1190.38 on element Observation.code could not be resolved
+# The VSAC value set (2.16.840.1.113762.1.4.1190.38) issue (see above) is causing a slicing issue because it can't validate the slice
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics
+# Optional slices, not matching is expected behaviour
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization
+This element does not match any known slice defined in the profile http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner
