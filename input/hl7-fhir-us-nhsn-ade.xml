@@ -8,7 +8,7 @@
         <source value="#tyltdFSA1E5T3JdF"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade"/>
-    <version value="0.1.0"/>
+    <version value="1.0.0"/>
     <name value="AdverseDrugEventHypoglycemia"/>
     <title value="NHSN Reporting: Adverse Drug Events - Hypoglycemia"/>
     <status value="draft"/>
