@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="Condition-diabetes"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2021-12-01T07:13:07.981+00:00"/>
+        <source value="#Mq27GrCnEIrxMcyU"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Condition-diabetes"/>
+    <version value="1.0.0"/>
+    <name value="ConditionDiabetes"/>
+    <title value="Condition Diabetes"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <publisher value="HL7 Public Health Work Group"/>
+    <description value="This Condition profile represents a diagnosis of diabetes"/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Condition"/>
+    <baseDefinition value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Condition">
+            <path value="Condition"/>
+            <short value="Condition Diabetes"/>
+        </element>
+        <element id="Condition.code">
+            <path value="Condition.code"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <mustSupport value="true"/>
+            <binding>
+                <strength value="required"/>
+                <description value="Valueset representing concepts for a diagnosis of diabetes"/>
+                <valueSet value="http://cts.nlm.nih.gov/fhir/ValueSet/2.16.840.1.113883.3.464.1003.103.12.1001"/>
+            </binding>
+        </element>
+    </differential>
+</StructureDefinition>

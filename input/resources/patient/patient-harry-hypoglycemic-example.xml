@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="patient-harry-hypoglycemic-example"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-03-30T01:37:24.710+00:00"/>
-        <source value="#NNccy4B9zEObY7xE"/>
+        <versionId value="3"/>
+        <lastUpdated value="2021-11-30T18:41:53.505+00:00"/>
+        <source value="#mtxTy9CcZBiO1SdC"/>
         <profile value="http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"/>
     </meta>
     <text>
@@ -13,6 +13,7 @@
         <div
             xmlns="http://www.w3.org/1999/xhtml">
             <div class="hapiHeaderText">Harry 
+                
                 
                 <b>HYPOGLYCEMIC </b>
             </div>

@@ -1,0 +1,1 @@
+The data reported in this Composition should be primarily based on linked diabetes diagnosis data, however, it should contain all conditions, procedures, results, and medications relevant to and generated during the encounter.

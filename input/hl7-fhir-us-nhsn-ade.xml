@@ -3,14 +3,14 @@
     xmlns="http://hl7.org/fhir">
     <id value="hl7-fhir-us-nhsn-ade"/>
     <meta>
-        <versionId value="21"/>
-        <lastUpdated value="2021-09-02T23:39:05.043+00:00"/>
-        <source value="#tyltdFSA1E5T3JdF"/>
+        <versionId value="27"/>
+        <lastUpdated value="2021-12-01T07:14:36.533+00:00"/>
+        <source value="#Z50jzWWEE4gSfawM"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/ImplementationGuide/hl7-fhir-us-nhsn-ade"/>
-    <version value="1.0.0"/>
-    <name value="AdverseDrugEventHypoglycemia"/>
-    <title value="NHSN Reporting: Adverse Drug Events - Hypoglycemia"/>
+    <version value="0.1.0"/>
+    <name value="AdverseDrugEventGlycemicControl"/>
+    <title value="NHSN Reporting: Adverse Drug Events - Glycemic Control"/>
     <status value="draft"/>
     <publisher value="HL7 International - Public Health Work Group"/>
     <contact>
@@ -20,7 +20,7 @@
             <value value="http://www.hl7.org/Special/committees/pher"/>
         </telecom>
     </contact>
-    <description value="Adverse drug events (ADEs) are among the most common causes of iatrogenic harm in U.S. hospitals. An effort to establish an EHR- and vendor-neutral standard for submitting ADE data to NHSN is being sought to improve patient safety and facilitate quality improvement effort. This promising initiative seeks to enable EHRs of acute care facilities to serve as source systems for reporting ADE data to the National Healthcare Safety Network (NHSN) via industry electronic messages. This initiative leverages NHSN’s longstanding experience working closely with the Health Level Seven (HL7) standards development organization and HL7 consultants in developing and maintaining electronic healthcare-associated and antibiotic use and resistance reporting implementation guidance for EHRs and infection surveillance system vendors in the acute care arena. That experience, and the working relationships developed over a 10-year partnership, are an important foundation for a collaborative effort in which NHSN, HL7, HL7 consultants, and EHR vendors join forces to advance the field of electronic ADE reporting.&#xA;&#xA;This first module, Hypoglycemia, planned for the NHSN Medication Safety Component, would enable hospitals to track and benchmark inpatient medication-related hypoglycemia (low blood sugar). Inpatient hypoglycemia can be severe and life-threatening and is associated with longer hospital stays and increased medical costs. Severe hypoglycemia (&lt;40 mg/dL) occurs in 2%-5% of hospitalized patients with diabetes mellitus (DM). Medication-related hypoglycemic events are common causes of adverse drug events (ADEs) occurring in inpatient settings, with rates of severe hypoglycemia varying across hospitals, suggesting opportunities for improvement in the quality of care. Measurement of medication-related hypoglycemia in a meaningful and standardized way may improve glycemic management. The NHSN ADE – Hypoglycemia Module provides a mechanism for facilities to report and analyze medication-related hypoglycemia as part of patient safety and glycemic management quality improvement efforts.&#xA;&#xA;The measures planned for used in this module are based on quality reporting metrics previously- or currently-endorsed by the National Quality Forum (NQF): NQF #2363 Glycemic Control - Hypoglycemia and NQF #3503 Hospital Harm – Severe Hypoglycemia. The metrics reported in this module would be primarily based on linked eMAR (antidiabetic medication administration) and laboratory (blood glucose) data. These long-standing linkages links between public health and vendors can be leveraged in ways that yield benefits for surveillance and prevention that are tightly coupled to business models and growth."/>
+    <description value="Adverse drug events (ADEs) are among the most common causes of iatrogenic harm in U.S. hospitals. An effort to establish an EHR- and vendor-neutral standard for submitting ADE data to NHSN is being sought to improve patient safety and facilitate quality improvement effort. This promising initiative enables EHRs of acute care facilities to serve as source systems for reporting ADE data to the National Healthcare Safety Network (NHSN) via industry electronic messages. This initiative leverages NHSN’s longstanding experience working closely with the Health Level Seven (HL7) standards development organization and HL7 consultants in developing and maintaining electronic healthcare-associated and antibiotic use and resistance reporting implementation guidance for EHRs and infection surveillance system vendors in the acute care arena. That experience, and the working relationships developed over a 10-year partnership, are an important foundation for a collaborative effort in which NHSN, HL7, HL7 consultants, and EHR vendors join forces to advance the field of electronic ADE reporting. These long-standing linkages links between public health and vendors can be leveraged in ways that yield benefits for surveillance and prevention that are tightly coupled to business models and growth.&#xA;&#xA;## Hypoglycemia&#xA;&#xA;The first module, Hypoglycemia, as part of the NHSN Medication Safety Component, enables hospitals to track and benchmark inpatient medication-related hypoglycemia (low blood sugar). Inpatient hypoglycemia can be severe and life-threatening and is associated with longer hospital stays and increased medical costs. Severe hypoglycemia (&lt;40 mg/dL) occurs in 2%-5% of hospitalized patients with diabetes mellitus (DM). Medication-related hypoglycemic events are common causes of adverse drug events (ADEs) occurring in inpatient settings, with rates of severe hypoglycemia varying across hospitals, suggesting opportunities for improvement in the quality of care. Measurement of medication-related hypoglycemia in a meaningful and standardized way may improve glycemic management. The NHSN ADE – Hypoglycemia Module provides a mechanism for facilities to report and analyze medication-related hypoglycemia as part of patient safety and glycemic management quality improvement efforts.&#xA;&#xA;The hypoglycemia module is based on quality reporting metrics previously- or currently-endorsed by the National Quality Forum (NQF): NQF #2363 Glycemic Control - Hypoglycemia and NQF #3503 Hospital Harm – Severe Hypoglycemia. The metrics reported in this module would be primarily based on linked eMAR (antidiabetic medication administration) and laboratory (blood glucose) data.&#xA;&#xA;## Hyperglycemia&#xA;&#xA;This work is now being extended to include the hyperglycemia (high blood sugar) model. Similar to inpatient hypoglycemia, hyperglycemia in hospitalized patients is associated with excess morbidity, mortality, and medical costs. Patients with diabetes comprise 30% to 40% of U.S. hosptial admissions and 70% to 80% of critical care stays. In patients with and without diabetes, appropriate management of hyperglycemia in hospital settings has been associated with improved clinical outcomes, reduced hospital-related morbidity and mortality, and lower costs. The incorporation of hyperglycemia surveillance is important for ensuring a comprehensive and balanced glycemic management quality improvement effort for hospitals. The NHSN ADE – Glycemic Control Module would provide a mechanism for facilities to report and analyze both inpatient hypoglycemia and hyperglycemia as part of patient safety and glycemic management quality improvement efforts.&#xA;&#xA;The hyperglycemia module is based on quality reporting metrics currently-endorsed by the National Quality Forum (NQF):  NQF #3533e Hospital Harm – Severe Hyperglycemia. The metrics reported in this module are intended to be based on linked diabetes diagnosis, eMAR (antidiabetic medication administration) and laboratory (blood glucose) data."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -206,6 +206,24 @@
             <description value="Example of an ADE Hypoglycemia Bundle"/>
             <exampleBoolean value="true"/>
         </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Composition-ade-hyperglycemia"/>
+                <display value="Composition - ADE Hyperglycemia"/>
+            </reference>
+            <name value="Composition - ADE Hyperglycemia"/>
+            <description value="This profile supports the electronic submission of adverse drug event (ADE) data relating to hyperglycemia to the National Healthcare Safety Network (NHSN)."/>
+            <exampleBoolean value="false"/>
+        </resource>
+        <resource>
+            <reference>
+                <reference value="StructureDefinition/Condition-diabetes"/>
+                <display value="Condition Diabetes"/>
+            </reference>
+            <name value="Condition Diabetes"/>
+            <description value="This Condition profile represents a diagnosis of diabetes"/>
+            <exampleBoolean value="false"/>
+        </resource>
         <page>
             <nameUrl value="index.html"/>
             <title value="Home Page"/>
@@ -222,16 +240,16 @@
             </page>
         </page>
         <parameter>
+            <code value="path-expansion-params"/>
+            <value value="expansion-parameters-ade.xml"/>
+        </parameter>
+        <parameter>
             <code value="copyrightyear"/>
             <value value="2020+"/>
         </parameter>
         <parameter>
             <code value="releaselabel"/>
             <value value="CI Build"/>
-        </parameter>
-        <parameter>
-            <code value="path-expansion-params"/>
-            <value value="expansion-parameters-ade.xml"/>
         </parameter>
     </definition>
 </ImplementationGuide>

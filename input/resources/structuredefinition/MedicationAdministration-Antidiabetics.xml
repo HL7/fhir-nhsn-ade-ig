@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="MedicationAdministration-Antidiabetics"/>
     <meta>
-        <versionId value="16"/>
-        <lastUpdated value="2021-03-30T01:37:24.786+00:00"/>
-        <source value="#TXxWmQGo5reCskj1"/>
+        <versionId value="17"/>
+        <lastUpdated value="2021-11-30T18:42:07.711+00:00"/>
+        <source value="#5hlzwLsVGDgJs09K"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/MedicationAdministration-Antidiabetics"/>
     <name value="MedicationAdministrationAntidiabetics"/>

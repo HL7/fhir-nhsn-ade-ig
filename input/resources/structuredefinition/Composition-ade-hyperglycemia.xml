@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <StructureDefinition
     xmlns="http://hl7.org/fhir">
-    <id value="Composition-ade-hypoglycemia"/>
+    <id value="Composition-ade-hyperglycemia"/>
     <meta>
-        <versionId value="39"/>
-        <lastUpdated value="2021-12-01T07:19:01.892+00:00"/>
-        <source value="#nSliDY7yYt5WLx9k"/>
+        <versionId value="2"/>
+        <lastUpdated value="2021-12-01T07:19:40.288+00:00"/>
+        <source value="#K7rowSuP86DHmVw6"/>
     </meta>
-    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hypoglycemia"/>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hyperglycemia"/>
     <version value="1.0.0"/>
-    <name value="CompositionAdeHypoglycemia"/>
-    <title value="Composition - ADE Hypoglycemia"/>
+    <name value="CompositionAdeHyperglycemia"/>
+    <title value="Composition - ADE Hyperglycemia"/>
     <status value="active"/>
     <experimental value="false"/>
     <publisher value="HL7 Public Health Work Group"/>
-    <description value="This profile supports the electronic submission of adverse drug event (ADE) data relating to hypoglycemia to the National Healthcare Safety Network (NHSN)."/>
+    <description value="This profile supports the electronic submission of adverse drug event (ADE) data relating to hyperglycemia to the National Healthcare Safety Network (NHSN)."/>
     <jurisdiction>
         <coding>
             <system value="urn:iso:std:iso:3166"/>
