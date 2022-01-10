@@ -3,9 +3,9 @@
     xmlns="http://hl7.org/fhir">
     <id value="Composition-ade-hyperglycemia"/>
     <meta>
-        <versionId value="2"/>
-        <lastUpdated value="2021-12-01T07:19:40.288+00:00"/>
-        <source value="#K7rowSuP86DHmVw6"/>
+        <versionId value="14"/>
+        <lastUpdated value="2022-01-10T01:58:36.222+00:00"/>
+        <source value="#sttbIGkCO5yMkhXW"/>
     </meta>
     <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Composition-ade-hyperglycemia"/>
     <version value="1.0.0"/>
@@ -72,6 +72,14 @@
             <path value="Composition.date"/>
             <mustSupport value="true"/>
         </element>
+        <element id="Composition.author">
+            <path value="Composition.author"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.title">
+            <path value="Composition.title"/>
+            <mustSupport value="true"/>
+        </element>
         <element id="Composition.section">
             <path value="Composition.section"/>
             <slicing>
@@ -82,6 +90,66 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection">
+            <path value="Composition.section"/>
+            <sliceName value="populationSection"/>
+            <short value="The Population Section contains a Observation with a count of all patients hospitalized during a specified time period who meet specific diagnosis critera, irrespective of whether they have experienced an adverse event."/>
+            <definition value="The Population Section contains Observations with a count of all patients hospitalized during a specified time period who meet specific diagnosis critera, irrespective of whether they have experienced an adverse event."/>
+            <min value="1"/>
+            <max value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.title">
+            <path value="Composition.section.title"/>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.code">
+            <path value="Composition.section.code"/>
+            <short value="Population group"/>
+            <min value="1"/>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://loinc.org"/>
+                    <code value="95715-9"/>
+                </coding>
+            </patternCodeableConcept>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.text">
+            <path value="Composition.section.text"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.entry">
+            <path value="Composition.section.entry"/>
+            <slicing>
+                <discriminator>
+                    <type value="profile"/>
+                    <path value="resolve()"/>
+                </discriminator>
+                <rules value="open"/>
+            </slicing>
+            <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.entry:DiagnosisDiabetesCount">
+            <path value="Composition.section.entry"/>
+            <sliceName value="DiagnosisDiabetesCount"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-diagnosis-diabetes-count"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:populationSection.entry:DiagnosisERSDorESLDCount">
+            <path value="Composition.section.entry"/>
+            <sliceName value="DiagnosisERSDorESLDCount"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-diagnosis-ersd-esld-count"/>
+            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemSection">
@@ -124,6 +192,16 @@
                 <rules value="open"/>
             </slicing>
             <min value="1"/>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Composition.section:problemSection.entry:DiabetesCondition">
+            <path value="Composition.section.entry"/>
+            <sliceName value="DiabetesCondition"/>
+            <min value="1"/>
+            <type>
+                <code value="Reference"/>
+                <targetProfile value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Condition-diabetes"/>
+            </type>
             <mustSupport value="true"/>
         </element>
         <element id="Composition.section:problemSection.entry:USCoreCondition">

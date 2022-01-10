@@ -30,4 +30,9 @@
         <display value="Count of hospitalized patients with ESRD/ESLD diagnoses"/>
         <definition value="Count of hospitalized patients with ESRD/ESLD diagnoses"/>
     </concept>
+    <concept>
+        <code value="diagnosis-diabetes-count"/>
+        <display value="Count of hospitalized patients with diabetes diagnosis"/>
+        <definition value="Count of hospitalized patients with diabetes diagnosis"/>
+    </concept>
 </CodeSystem>
