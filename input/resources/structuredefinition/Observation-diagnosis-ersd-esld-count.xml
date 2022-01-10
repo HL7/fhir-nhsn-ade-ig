@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StructureDefinition
+    xmlns="http://hl7.org/fhir">
+    <id value="Observation-diagnosis-ersd-esld-count"/>
+    <meta>
+        <versionId value="9"/>
+        <lastUpdated value="2022-01-10T00:49:46.972+00:00"/>
+        <source value="#9KdZgk5edBAPVfz9"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/StructureDefinition/Observation-diagnosis-ersd-esld-count"/>
+    <version value="0.1.0"/>
+    <name value="ObservationDiagnosisErsdEsldCount"/>
+    <title value="Observation - Diagnosis ERSD/ESLD Count"/>
+    <status value="active"/>
+    <experimental value="false"/>
+    <description value="This profile represents the count of all patients hospitalized during a specified time period who meet the criteria of ESRD/ESLD diagnoses (primary or secondary position), irrespective of whether they have experienced an adverse event."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+    </jurisdiction>
+    <fhirVersion value="4.0.1"/>
+    <kind value="resource"/>
+    <abstract value="false"/>
+    <type value="Observation"/>
+    <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Observation"/>
+    <derivation value="constraint"/>
+    <differential>
+        <element id="Observation">
+            <path value="Observation"/>
+        </element>
+        <element id="Observation.code">
+            <path value="Observation.code"/>
+            <short value="Count of hospitalized patients with ESRD/ESLD diagnoses"/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="CodeableConcept"/>
+            </type>
+            <patternCodeableConcept>
+                <coding>
+                    <system value="http://hl7.org/fhir/us/nhsn-ade/CodeSystem/CodeSystem-ade-codes"/>
+                    <code value="diagnosis-ersd-esld-count"/>
+                </coding>
+            </patternCodeableConcept>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Observation.effective[x]">
+            <path value="Observation.effective[x]"/>
+            <short value="Time period of count"/>
+            <definition value="Date specimen collected/drawn."/>
+            <min value="1"/>
+            <max value="1"/>
+            <type>
+                <code value="Period"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+        <element id="Observation.value[x]">
+            <path value="Observation.value[x]"/>
+            <min value="1"/>
+            <type>
+                <code value="integer"/>
+            </type>
+            <mustSupport value="true"/>
+        </element>
+    </differential>
+</StructureDefinition>

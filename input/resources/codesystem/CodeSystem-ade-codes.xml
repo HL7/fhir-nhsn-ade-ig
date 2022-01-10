@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeSystem
+    xmlns="http://hl7.org/fhir">
+    <id value="CodeSystem-ade-codes"/>
+    <meta>
+        <versionId value="1"/>
+        <lastUpdated value="2022-01-10T00:04:02.010+00:00"/>
+        <source value="#oYdrN31BIb9okEo2"/>
+    </meta>
+    <url value="http://hl7.org/fhir/us/nhsn-ade/CodeSystem/CodeSystem-ade-codes"/>
+    <version value="1.0.0"/>
+    <name value="ADECodeSystem"/>
+    <title value="ADE Code System"/>
+    <status value="active"/>
+    <date value="2021-12-01"/>
+    <publisher value="HL7 Public Health Work Group"/>
+    <description value="This code system contains codes for use in NHSN ADE."/>
+    <jurisdiction>
+        <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="US"/>
+            <display value="United States of America"/>
+        </coding>
+        <text value="United States of America"/>
+    </jurisdiction>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="diagnosis-ersd-esld-count"/>
+        <display value="Count of hospitalized patients with ESRD/ESLD diagnoses"/>
+        <definition value="Count of hospitalized patients with ESRD/ESLD diagnoses"/>
+    </concept>
+</CodeSystem>

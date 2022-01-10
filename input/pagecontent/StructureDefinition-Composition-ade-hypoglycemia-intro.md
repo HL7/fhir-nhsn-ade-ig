@@ -1,1 +1,3 @@
 The data reported in this Composition should be primarily based on linked eMAR (antidiabetic medication administration) and laboratory (blood glucose) data, however, it should contain all conditions, procedures, results, and medications relevant to and generated during the encounter.
+
+The composition also contains a count of all patients hospitalized during a specified time period  who meet the criteria of ESRD/ESLD diagnoses (primary or secondary position), irrespective of whether they have experienced an adverse event.
